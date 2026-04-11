@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "date": "2026-04-11",
+  "sabbathSchool": {
+    "topic": "Respect for Rightful Authority",
+    "study": "Mark 12:13-17;Romans 13:1-8;1 Peter 2:13-17",
+    "background": "Mark 12:13-17;Romans 13:1-8;1 Peter 2:13-17",
+    "devotional": "Proverbs 31:4-9"
+  },
+  "announcements": [
+        {
+      "description": "First SDB Church of Toronto Concert",
+      "startDate": "2026-05-09",
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, Canada"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, United States"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*We will have vespers after lunch in the afternoon.*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "2 Kings 13:20-21"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 408
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Isaiah 53"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 16
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Ezekiel 37:1-14"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "youth"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Can These Bones Live - O Lord God, Thou Knowest",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 217
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
