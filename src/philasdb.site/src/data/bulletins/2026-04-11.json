@@ -8,16 +8,22 @@
     "devotional": "Proverbs 31:4-9"
   },
   "announcements": [
-        {
+    {
       "description": "First SDB Church of Toronto Concert",
       "startDate": "2026-05-09",
-      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, Canada"
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, CA"
+    },
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-17",
+      "location": "116 East Ave, Shiloh, NJ 08302, US"
     },
     {
       "description": "Conference Sessions 2026",
       "startDate": "2026-07-21",
       "endDate": "2026-07-26",
-      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, United States"
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, US"
     }
   ],
   "notes": [
