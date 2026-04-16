@@ -27,7 +27,7 @@ jobs:
 
       - name: Upload artifact
         id: upload-artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
             name: 'github-pages'
             path: "src/philasdb.site/dist/"
