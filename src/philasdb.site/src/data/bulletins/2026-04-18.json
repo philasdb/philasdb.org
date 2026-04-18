@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "date": "2026-04-18",
+  "sabbathSchool": {
+    "topic": "The Child in a Christian World",
+    "study": "Mark 9:33-42;10:13-16",
+    "background": "Matthew 18:1-6;Mark 9:33-42;10:13-16;Luke 2:1-20",
+    "devotional": "Psalm 8"
+  },
+  "announcements": [
+    {
+      "description": "First SDB Church of Toronto Concert",
+      "startDate": "2026-05-09",
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, Canada"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, United States"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*We will have vespers after lunch in the afternoon.*",
+    "*Congratulations to Bro. Davonne Henry on completing a PhD!*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 41:5"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 385
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 41"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 368
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Genesis 29:19-29"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "youth"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Be Honest - Part 2",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 367
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
