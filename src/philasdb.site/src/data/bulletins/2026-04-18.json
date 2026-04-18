@@ -11,13 +11,18 @@
     {
       "description": "First SDB Church of Toronto Concert",
       "startDate": "2026-05-09",
-      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, Canada"
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, CAN"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-05-25",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
     },
     {
       "description": "Conference Sessions 2026",
       "startDate": "2026-07-21",
       "endDate": "2026-07-26",
-      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, United States"
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
     }
   ],
   "notes": [
