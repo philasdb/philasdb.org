@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "date": "2026-04-18",
+  "date": "2026-04-25",
   "sabbathSchool": {
     "topic": "The Child in a Christian World",
     "study": "Mark 9:33-42;10:13-16",
@@ -35,12 +35,12 @@
   "worshipService": [
     {
       "type": "thoughtOfTheDay",
-      "reference": "Psalm 41:5"
+      "reference": "Psalm 34:13-14"
     },
     {
       "type": "song",
       "label": "Opening Song",
-      "song": 385
+      "song": 366
     },
     {
       "type": "text",
@@ -56,11 +56,11 @@
     {
       "type": "scripture",
       "label": "Responsive Reading",
-      "reference": "Psalm 41"
+      "reference": "Psalm 34:1-19"
     },
     {
       "type": "tithesAndOffering",
-      "song": 368
+      "song": 251
     },
     {
       "type": "scripture",
@@ -77,14 +77,14 @@
     {
       "type": "message",
       "message": {
-        "title": "Be Honest - Part 2",
+        "title": "Be Honest - Part 3",
         "speaker": "Pastor Kenroy Cruickshank"
       }
     },
     {
       "type": "song",
       "label": "Closing Song",
-      "song": 367
+      "song": 94
     },
     {
       "type": "text",
