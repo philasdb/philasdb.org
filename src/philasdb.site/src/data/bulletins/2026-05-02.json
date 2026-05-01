@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "date": "2026-05-02",
+  "sabbathSchool": {
+    "topic": "The Higher Patriotism",
+    "study": "Jonah 1:1-3;3:1-5;4:6-11",
+    "background": "Jonah 1-4",
+    "devotional": "Revelation 5:1-5"
+  },
+  "announcements": [
+    {
+      "description": "First SDB Church of Toronto Concert",
+      "startDate": "2026-05-09",
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, CAN"
+    },
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-17",
+      "location": "Shiloh SDB Church, 116 East Ave, Shiloh, NJ 08353"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-05-24",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*We will have vespers after lunch in the afternoon.*",
+    "*Congratulations to Bro. Davonne Henry on completing a PhD!*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Acts 10:38"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": {
+        "title": "The Regions Beyond",
+        "hymnNumber": "508",
+        "url": "https://youtu.be/X4yxMZgHjvI?si=RtOWCFzbEHkkKWkB"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 98"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "All People That on Earth Do Dwell",
+        "hymnNumber": "53",
+        "url": "https://youtu.be/JmGwHdNtpEw?si=a0DGvBhF1wpOJkDv"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Acts 10:19-48"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "youth"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "The Gospel Takes Root in a Non-Jewish Heart - Part III - Peter Goes and Tells the Good News of Jesus",
+        "speaker": "Brother Kevin Brey"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": {
+        "title": "I Love to Tell the Story",
+        "hymnNumber": "190",
+        "url": "https://youtu.be/AB-KSNQdhaY?si=5aMJl1scZqrnNL3g"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
