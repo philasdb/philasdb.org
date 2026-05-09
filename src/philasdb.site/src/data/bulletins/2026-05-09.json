@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "date": "2026-05-09",
+  "sabbathSchool": {
+    "topic": "Useful Work as Christian Duty",
+    "study": "Genesis 2:15; Exodus 20:9; John 5:17; 9:4; Acts 20:33-35; 2 Thessalonians 3:6-12",
+    "background": "Genesis 2; Exodus 20:9; John 5:17; 9:4; Acts 20:33-35; 2 Thessalonians 3:6-12",
+    "devotional": "Ecclesiastes 9:4-10"
+  },
+  "announcements": [
+    {
+      "description": "First SDB Church of Toronto Concert",
+      "startDate": "2026-05-09",
+      "location": "49 Brydon Dr, Etobicoke ON M9W 4N3, CAN"
+    },
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-17",
+      "location": "Shiloh SDB Church, 116 East Ave, Shiloh, NJ 08353"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-05-24",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 127:3-5"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 421
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "presentedBy": "Brother Ted Lawerence",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 139:1-14"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "Precious Memories"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "John 19:25-27",
+      "presentedBy": "Sister Phillips Valentine"
+    },
+    {
+      "type": "text",
+      "label": "Remarks",
+      "content": "Men will say some words about their mothers"
+    },
+    {
+      "type": "song",
+      "label": "Special",
+      "song": {
+        "title": "I Must Tell Jesus",
+        "hymnal": "Tabernacle Hymns: Number Four",
+        "hymnNumber": 72
+      }
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Jesus Words About Mothers",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": {
+        "title": "Faith of Our Mothers",
+        "hymnal": "Tabernacle Hymns: Number Four",
+        "hymnNumber": 336
+      }
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
