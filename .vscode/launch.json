@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "bun run dev",
+      "command": "pnpm dev",
       "name": "Web Dev Server",
       "request": "launch",
       "type": "node-terminal",
-      "cwd": "${workspaceFolder}/src/philasdb.site"
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

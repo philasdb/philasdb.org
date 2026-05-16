@@ -2,7 +2,15 @@
   "name": "philasdb-apphost",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.1.2",
+  "scripts": {
+    "dev": "pnpm --dir src/philasdb.site dev",
+    "build": "pnpm --dir src/philasdb.site build",
+    "preview": "pnpm --dir src/philasdb.site preview",
+    "astro": "pnpm --dir src/philasdb.site astro"
+  },
   "devDependencies": {
+    "typescript": "^6.0.3",
     "tsx": "^4.21.0"
   },
   "dependencies": {

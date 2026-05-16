@@ -10,20 +10,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: src/philasdb.site
     steps:
       - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.2
+          run_install: false
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      - uses: oven-sh/setup-bun@v2
+          cache: pnpm
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
         
       - name: Build Website
-        run: bun run build
+        run: pnpm build
 
       - name: Upload artifact
         id: upload-artifact
