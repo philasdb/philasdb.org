@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "date": "2026-05-16",
+  "sabbathSchool": {
+    "topic": "The Christian Spirit in Industry",
+    "study": "Deuteronomy 24:14-21;Ephesians 6:5-9; 1 Timothy 6:17-19",
+    "background": "Exodus 1; Deuteronomy 24;Amos 5:6-15; Ephesians 6:1-9; 1 Timothy 6:17-19",
+    "devotional": "Luke 3:7-14"
+  },
+  "announcements": [
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-17",
+      "location": "Shiloh SDB Church, 116 East Ave, Shiloh, NJ 08353"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-05-24",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-05-30"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Romans 13:11-14"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 167
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 107:1-28"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song":  310
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Matthew 13:24-25"
+    },
+    {
+      "type": "song",
+      "label": "Special"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "While Men Slept: Awake out of Sleep & Slumber",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 166
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
