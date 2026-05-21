@@ -12,7 +12,7 @@
     "@astrojs/sitemap": "3.7.2",
     "@types/video.js": "^7.3.58",
     "@xmldom/xmldom": "^0.9.10",
-    "astro": "^6.3.3",
+    "astro": "^6.3.6",
     "date-fns": "^4.1.0",
     "lit": "3.3.3",
     "tslib": "^2.8.1",
