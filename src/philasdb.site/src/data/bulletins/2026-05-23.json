@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "date": "2026-05-23",
+  "sabbathSchool": {
+    "topic": "The Christian View of Rest",
+    "study": "Mark 2:18-28",
+    "background": "Jeremiah 31:12-13;Zechariah 8:5;Matthew 11:16-19;Mark 2:18-28;John 2:1-11",
+    "devotional": "Ecclesiastes 2:20-25"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-05-30"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-06-21",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 40:7-8"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 467
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 40"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song":  415
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Genesis 49:1-10"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Be Honest (Part 4)",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 180
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
