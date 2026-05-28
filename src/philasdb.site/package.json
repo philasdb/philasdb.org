@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "typescript": "^6.0.3",
-    "@astrojs/compiler-rs": "^0.2.0",
+    "@astrojs/compiler-rs": "^0.2.1",
     "sharp": "^0.34.5"
   }
 }
