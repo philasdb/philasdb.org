@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "date": "2026-05-30",
+  "sabbathSchool": {
+    "topic": "Fellowship Through Worship",
+    "study": "Matthew 28::18-20;Hebrews 10:22-25",
+    "background": "Nehemiah 8;Micah 4:1-2;Psalm 122:1-9;Matthew 28:18-20;Hebrews 10:19-25",
+    "devotional": "Hebrews 1:1-6"
+  },
+  "announcements": [
+    {
+      "description": "13th Sabbath",
+      "startDate": "2026-05-30"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-06-21",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "Break after sabbath school is 10 minutes",
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 103:1-2"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 90
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 103"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song":  545
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "1 Corinthians 13:1-13"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "Helping Hand Reviews"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 218
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
