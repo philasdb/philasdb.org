@@ -1,91 +1,94 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .left-column,
 .right-column {
-    flex: 1;
+  flex: 1;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
 }
 
 .announcement {
-    margin-top: 5px;
+  margin-top: 5px;
+}
+
+.notes {
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 .item {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .donate-link a {
-    text-decoration: none;
-    font-weight: bold;
-    color: blue
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
 }
 
 .donate-link a:visited {
-    color: blue
+  color: blue;
 }
 
 @media print and (orientation: landscape) {
+  .hide-on-print {
+    display: none;
+  }
 
-    .hide-on-print {
-        display: none;
-    }
+  /* Reduce margin and padding for better printing */
+  body,
+  .container,
+  .left-column,
+  .right-column {
+    margin: 0;
+    padding: 0;
+  }
 
-    /* Reduce margin and padding for better printing */
-    body,
-    .container,
-    .left-column,
-    .right-column {
-        margin: 0;
-        padding: 0;
-    }
+  .container {
+    flex-direction: row;
+  }
 
-    .container {
-        flex-direction: row;
-    }
+  .left-column,
+  .right-column {
+    margin-left: 3%;
+    width: 50%;
+    padding: 0 50px;
+  }
 
-    .left-column,
-    .right-column {
-        margin-left: 3%;
-        width: 50%;
-        padding: 0 50px;
-    }
+  /* Hide some elements not necessary for printing */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+  }
 
-    /* Hide some elements not necessary for printing */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        page-break-after: avoid;
-    }
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+  a[href]:after {
+    display: none;
+  }
 
-    a[href]:after {
-        display: none;
-    }
+  /* Reduce spacing between items to fit more on page */
+  .item {
+    margin-top: 3px;
+  }
 
-    /* Reduce spacing between items to fit more on page */
-    .item {
-        margin-top: 3px;
-    }
-
-    /* Make presenter names smaller to save space */
-    .item i {
-        font-size: 0.85em;
-    }
-
+  /* Make presenter names smaller to save space */
+  .item i {
+    font-size: 0.85em;
+  }
 }

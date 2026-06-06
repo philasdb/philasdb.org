@@ -49,9 +49,9 @@ const bulletinV2 = migrateBulletinToV2(Astro.props.bulletin as Bulletin);
         </section>
         {
           bulletinV2.notes.map((note) => (
-            <p>
+            <div class="notes">
               <b>{note}</b>
-            </p>
+            </div>
           ))
         }
       </div>
@@ -104,13 +104,17 @@ const bulletinV2 = migrateBulletinToV2(Astro.props.bulletin as Bulletin);
                 case "text":
                   return (
                     <div class="item">
-                      {item.content && item.small && item.italic ? (
+                      {item.content ? (
                         <div>
-                          <small>
-                            <b>
-                              <i>*{item.content}*</i>
-                            </b>
-                          </small>
+                          {item.small ? (
+                            <small>
+                              <b>
+                                {item.italic ? <i>{item.content}</i> : item.content}
+                              </b>
+                            </small>
+                          ) : (
+                            <b>{item.italic ? <i>{item.content}</i> : item.content}</b>
+                          )}
                         </div>
                       ) : null}
                       <div>

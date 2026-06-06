@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "date": "2026-06-06",
+  "sabbathSchool": {
+    "topic": "Deborah, A Leader in a National Emergency",
+    "study": "Judges 4:4-22",
+    "background": "Judges 4",
+    "devotional": "Matthew 20:20-28"
+  },
+  "announcements": [
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-06-21",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-06-27"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "text",
+      "label": "Isaiah 40:8 (ESV)",
+      "content": "The grass withers, the flower fades, but the word of our God will stand forever.",
+      "italic": true
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 37
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Isaiah 40:1-8"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 545
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Matthew 3:1-3"
+    },
+    {
+      "type": "song",
+      "label": "Special Music",
+      "song": {
+        "title": "I Need You",
+        "artist": "Gateway Worship"
+      },
+      "presentedBy": "Bro. Tyler Gahagan"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "A Voice in the Wilderness",
+        "speaker": "Bro. Tyler Gahagan"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 308
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}

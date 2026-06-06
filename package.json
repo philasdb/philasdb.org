@@ -2,18 +2,20 @@
   "name": "philasdb-apphost",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.5.0",
   "scripts": {
     "dev": "pnpm --dir src/philasdb.site dev",
     "build": "pnpm --dir src/philasdb.site build",
     "preview": "pnpm --dir src/philasdb.site preview",
-    "astro": "pnpm --dir src/philasdb.site astro"
-  },
-  "devDependencies": {
-    "tsx": "^4.22.3",
-    "typescript": "^6.0.3"
+    "astro": "pnpm --dir src/philasdb.site astro",
+    "prepare": "vp config"
   },
   "dependencies": {
     "vscode-jsonrpc": "^8.2.1"
-  }
+  },
+  "devDependencies": {
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "vite-plus": "catalog:"
+  },
+  "packageManager": "pnpm@11.5.0"
 }
