@@ -1,10 +1,9 @@
-
 name: Deploy Github Pages
 
 on:
   push:
-    branches: [ "main" ]
-    paths: [ "src/philasdb.site/**" ]
+    branches: ["main"]
+    paths: ["src/philasdb.site/**"]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +14,7 @@ jobs:
       - name: Setup Vite+ and Install Dependencies
         uses: voidzero-dev/setup-vp@v1
         with:
-          node-version: "lts"
+          node-version: "26"
           cache: true
           run-install: true
 
@@ -26,10 +25,10 @@ jobs:
         id: upload-artifact
         uses: actions/upload-pages-artifact@v5
         with:
-            name: 'github-pages'
-            path: "src/philasdb.site/dist/"
-            retention-days: 1
-      
+          name: "github-pages"
+          path: "src/philasdb.site/dist/"
+          retention-days: 1
+
   deploy:
     needs: build
 
@@ -40,7 +39,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-  
+
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages

@@ -2,12 +2,12 @@
 import Bulletin from "../../components/Bulletin.astro";
 import MainLayout from "../../layouts/MainLayout.astro";
 import { getCollection } from "astro:content";
-import formatDate from "../../lib/date";
+import formatDate, { compareDateStrings } from "../../lib/date";
 
 // Get all bulletins and sort by date (newest first)
 const bulletins = await getCollection("bulletins");
 const sortedBulletins = bulletins.sort((a, b) => {
-  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  return compareDateStrings(b.data.date, a.data.date);
 });
 
 // Get the latest bulletin
