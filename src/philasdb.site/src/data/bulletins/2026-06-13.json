@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "date": "2026-06-13",
+  "sabbathSchool": {
+    "topic": "Hannah, A Godly Mother",
+    "study": " 1 Samuel 1:9-20,25",
+    "background": "1 Samuel 1:1-28;2:1-11,18-19;3:1-18",
+    "devotional": "Isaiah 49:13-17"
+  },
+  "announcements": [
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-06-21",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Lamentations 3:21-25"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 100
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Isaiah 40:1-8"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 39
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Ephesians 1:10-23"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "All Things in Christ Jesus - He Gave Me All",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 2
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
