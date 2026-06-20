@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "date": "2026-06-20",
+  "sabbathSchool": {
+    "topic": "Jonathan and David, A Noble Friendship",
+    "study": "1 Samuel 18:1-4;20:16-34,42;2 Samuel 1:26-27;21:7",
+    "background": "1 Samuel 18:1-4;19:1-7;20:1-42,42;2 Samuel 1:17-27;21:7",
+    "devotional": "Proverbs 27:6,10-11,17,19"
+  },
+  "announcements": [
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2026-06-21",
+      "location": "Beck's Pavilion, 2225 Bustard Road, Lansdale, PA 19446, USA"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 136:24-25"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 243
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 136"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 197
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Matthew 6:7-15"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "Tributes from Women and Children"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Our Heavenly Father Loves and Cares for Us",
+        "speaker": "Sis. Jasmin Findlater"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 533
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
