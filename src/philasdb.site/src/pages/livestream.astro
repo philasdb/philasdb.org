@@ -1,5 +1,4 @@
 ---
-import "video.js/dist/video-js.css";
 import MainLayout from "../layouts/MainLayout.astro";
 import coverImage from "../images/cover_image.webp";
 ---
@@ -11,106 +10,9 @@ import coverImage from "../images/cover_image.webp";
       <li>Livestream</li>
     </ul>
   </nav>
-  <section style="position: relative;">
-    <!-- Offline Overlay Message -->
-    <div
-      id="offline-overlay"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; z-index: 10; background: rgba(0, 0, 0, 0.85); border-radius: 8px;"
-    >
-      <div
-        style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 2rem; text-align: center; color: white;"
-      >
-        <h2 style="margin-bottom: 1rem; color: white;">Livestream Currently Offline</h2>
-        <p style="font-size: 1.2rem; margin: 0.5rem 0; color: white; font-weight: 500;">
-          Join us live on <strong style="color: white;">Saturdays at 11:00 AM EST</strong>
-        </p>
-        <p style="margin: 0.5rem 0; color: white; opacity: 0.95;">
-          Sabbath School, Praise & Worship, and Divine Worship
-        </p>
-        <p style="margin: 1.5rem 0;">
-          <a href="/sermons" role="button" style="background-color: #0066cc; color: white; font-weight: 600;">Watch Previous Sermons</a>
-        </p>
-        <p style="font-size: 0.85rem; opacity: 0.7; margin-top: 1rem;">
-          Checking for livestream...
-        </p>
-      </div>
-    </div>
-
-    <!-- Video Player -->
-    <video
-      id="my-video"
-      class="video-js"
-      style="position: relative; width: 100%; height: auto; aspect-ratio: 16/9;"
-      controls
-      preload="auto"
-      poster={coverImage.src}
-    >
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="https://videojs.com/html5-video-support/" target="_blank"
-          >supports HTML5 video</a
-        >
-      </p>
-    </video>
-  </section>
-  <script>
-    const statusUrl = "https://psdb-livestream.fly.dev/api/status";
-    const hlsUrl = "https://psdb-livestream.fly.dev/hls/live/demo/output.m3u8";
-
-    let player;
-    let statusCheckInterval;
-
-    async function checkStreamStatus() {
-      try {
-        const response = await fetch(statusUrl);
-        const data = await response.json();
-        return data.isLive === true;
-      } catch (error) {
-        console.error("Error checking stream status:", error);
-        return false;
-      }
-    }
-
-    async function updateOverlay() {
-      const isLive = await checkStreamStatus();
-      const overlay = document.getElementById("offline-overlay");
-
-      if (isLive) {
-        // Stream is live - hide overlay
-        overlay.style.display = "none";
-
-        // Initialize player if not already done
-        if (!player) {
-          const videojs = (await import("video.js")).default;
-          player = videojs("my-video", {
-            sources: [
-              {
-                src: hlsUrl,
-                type: "application/x-mpegURL",
-              },
-            ],
-            autoplay: "muted",
-            liveui: true,
-            controls: true,
-          });
-
-          player.on("error", function () {
-            console.log("Player error detected");
-            // Show overlay on persistent errors
-            overlay.style.display = "flex";
-          });
-        }
-      } else {
-        // Stream is offline - show overlay
-        overlay.style.display = "flex";
-      }
-    }
-
-    // Initial check
-    updateOverlay();
-
-    // Check status every 5 seconds
-    statusCheckInterval = setInterval(updateOverlay, 5000);
-  </script>
+  <livestream-player poster-src={coverImage.src}></livestream-player>
 </MainLayout>
+
+<script>
+  import "../components/LivestreamPlayer.ts";
+</script>
