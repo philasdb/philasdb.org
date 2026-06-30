@@ -14,16 +14,6 @@ const sortedBulletins = bulletins.sort((a, b) => {
 const latestBulletin =
   sortedBulletins.length > 0 ? sortedBulletins[0].data : null;
 
-// This function is still needed for the [date].astro page
-export async function getStaticPaths() {
-  return bulletins.map((bulletin) => {
-    return {
-      params: { date: bulletin.data.date },
-      props: bulletin.data,
-    };
-  });
-}
-
 const formattedDate = latestBulletin
   ? formatDate(latestBulletin.date, "MMMM dd, yyyy")
   : "";
