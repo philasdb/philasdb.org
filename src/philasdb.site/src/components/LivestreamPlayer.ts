@@ -79,7 +79,10 @@ const livestreamSlice = defineSlice<HTMLVideoElement>()({
       try {
         await media.play();
       } catch (error) {
-        console.warn("Autoplay was prevented:", error);
+        console.warn(
+          "Muted livestream autoplay was prevented; playback may require a user gesture.",
+          error,
+        );
       }
 
       set({
@@ -200,7 +203,7 @@ export class LivestreamPlayer extends LitElement {
         this.stopPlayback();
       }
     } catch (error) {
-      console.error("Error checking stream status:", error);
+      console.error(`Error checking livestream status at ${this.statusUrl}:`, error);
       this.store.setAvailability(false);
       this.hasCompletedInitialCheck = true;
       this.stopPlayback();
@@ -255,7 +258,7 @@ export class LivestreamPlayer extends LitElement {
     });
 
     hls.on(Hls.Events.ERROR, (_event, data) => {
-      console.error("HLS playback error:", data);
+      console.error(`HLS playback error (${data.type}/${data.details ?? "unknown"}):`, data);
 
       if (data.fatal) {
         this.store.setPlaybackError(true);
