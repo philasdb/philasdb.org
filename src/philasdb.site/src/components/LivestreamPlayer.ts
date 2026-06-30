@@ -7,7 +7,7 @@ const DEFAULT_STATUS_URL = "https://psdb-livestream.fly.dev/api/status";
 const DEFAULT_HLS_URL = "https://psdb-livestream.fly.dev/hls/live/demo/output.m3u8";
 const STREAM_CHECK_INTERVAL_MS = 5000;
 
-const livestreamSlice = defineSlice<HTMLVideoElement>()({
+const livestreamPlayerSlice = defineSlice<HTMLVideoElement>()({
   state: ({ set, target }) => ({
     isChecking: true,
     isLive: false,
@@ -132,7 +132,7 @@ export class LivestreamPlayer extends LitElement {
   @property({ type: String, attribute: "poster-src" })
   posterSrc = "";
 
-  private readonly store = createStore<HTMLVideoElement>()(livestreamSlice);
+  private readonly store = createStore<HTMLVideoElement>()(livestreamPlayerSlice);
 
   private hasCompletedInitialCheck = false;
   private statusIntervalId?: number;
@@ -258,7 +258,10 @@ export class LivestreamPlayer extends LitElement {
     });
 
     hls.on(Hls.Events.ERROR, (_event, data) => {
-      console.error(`HLS playback error (${data.type}/${data.details ?? "unknown"}):`, data);
+      console.error(
+        `HLS playback error (${data.type}/${data.details ?? "no details provided"}):`,
+        data,
+      );
 
       if (data.fatal) {
         this.store.setPlaybackError(true);
