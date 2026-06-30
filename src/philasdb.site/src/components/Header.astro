@@ -1,3 +1,7 @@
+---
+const url = "https://psdb-livestream.fly.dev/api/status";
+---
+
 <header
   style="position: fixed; top: 0; width:100%; background-color: white; z-index: 1000; padding: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"
 >
@@ -30,7 +34,9 @@
     <ul>
       <li><a href="/">HOME</a></li>
       <li><a href="/about">ABOUT</a></li>
-      <li><a href="/livestream">LIVESTREAM</a></li>
+      <li>
+        <livestream-link url={url}></livestream-link>
+      </li>
       <li>
         <a href="/sermons">SERMONS</a>
       </li>
@@ -65,3 +71,7 @@
     </ul>
   </nav>
 </header>
+
+<script>
+  import "./LivestreamLink.ts";
+</script>

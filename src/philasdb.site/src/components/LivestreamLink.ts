@@ -1,64 +1,64 @@
-import { LitElement, html } from 'lit';
-import { customElement, property, state } from 'lit/decorators.js';
+const LIVESTREAM_PATH = "/livestream";
+const POLL_INTERVAL_MS = 10_000;
 
-@customElement('livestream-link')
-export class LivestreamLink extends LitElement {
-  @property({ type: String })
-  url = '';
-
-  @state()
+class LivestreamLink extends HTMLElement {
+  private intervalId?: number;
   private isLive = false;
 
-  private intervalId?: number;
-
-  // Disable Shadow DOM to allow global styles (PicoCSS) to apply
-  createRenderRoot() {
-    return this;
-  }
-
   connectedCallback() {
-    super.connectedCallback();
+    this.render();
     this.checkLiveStatus();
-    this.intervalId = window.setInterval(() => this.checkLiveStatus(), 10000);
+    this.intervalId = window.setInterval(() => this.checkLiveStatus(), POLL_INTERVAL_MS);
   }
 
   disconnectedCallback() {
-    super.disconnectedCallback();
     if (this.intervalId) {
       clearInterval(this.intervalId);
     }
   }
 
+  private get statusUrl() {
+    return this.getAttribute("url") ?? "";
+  }
+
   private async checkLiveStatus() {
     try {
-      const response = await fetch(this.url);
+      const response = await fetch(this.statusUrl);
       const data = await response.json();
-      this.isLive = data?.isLive || false;
-    } catch (error) {
-      this.isLive = false;
+      const nextIsLive = Boolean(data?.isLive);
+      if (this.isLive !== nextIsLive) {
+        this.isLive = nextIsLive;
+        this.render();
+      }
+    } catch {
+      if (this.isLive) {
+        this.isLive = false;
+        this.render();
+      }
     }
   }
 
-  render() {
-    return html`
-      <a href="/livestream">
-        <span 
-          id="live-stream-status-icon" 
-          class="${this.isLive ? 'live-indicator red' : ''}"
+  private render() {
+    this.innerHTML = `
+      <a href="${LIVESTREAM_PATH}">
+        <span
+          id="live-stream-status-icon"
+          class="live-indicator${this.isLive ? " live-indicator-red" : ""}"
         >
-          ${this.isLive ? '🔴' : '⚪'}
+          ${this.isLive ? "🔴" : "⚪"}
         </span>
-        ${this.isLive 
-          ? html`<strong>LIVESTREAM</strong>` 
-          : html`<span>LIVESTREAM</span>`
-        }
+        ${this.isLive ? "<strong>LIVESTREAM</strong>" : "<span>LIVESTREAM</span>"}
       </a>
     `;
   }
 }
 
+if (!customElements.get("livestream-link")) {
+  customElements.define("livestream-link", LivestreamLink);
+}
+
 declare global {
   interface HTMLElementTagNameMap {
-    'livestream-link': LivestreamLink;
+    "livestream-link": LivestreamLink;
   }
 }
