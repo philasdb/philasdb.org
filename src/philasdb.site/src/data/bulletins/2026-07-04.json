@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "date": "2026-07-04",
+  "sabbathSchool": {
+    "topic": "The Believing Centurion",
+    "study": "Matthew 8:5-13",
+    "background": "Matthew 8:5-13",
+    "devotional": "Acts 10:19-22,30-35"
+  },
+  "announcements": [
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Mid-Year Business Meeting",
+      "startDate": "2026-08-02",
+      "location": "Zoom"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Mark 5:22"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 266
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "2 Kings 4:8-37"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 378
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Mark 5:21-43"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Miracle... Interrupted!",
+        "speaker": "Bro. Kevin Brey"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 166
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
