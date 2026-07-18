@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "date": "2026-07-18",
+  "sabbathSchool": {
+    "topic": "Zaccheus, The Transformed Publican",
+    "study": "Luke 19:1-10",
+    "background": "Luke 19:1-10",
+    "devotional": "Luke 6:31-38"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2026-07-18"
+    },
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Graduation Service",
+      "startDate": "2026-08-01"
+    },
+    {
+      "description": "Mid-Year Business Meeting",
+      "startDate": "2026-08-02",
+      "location": "Zoom"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "John 3:16"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 243
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "John 3:1-21"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": "When He Was on the Cross"
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Isaiah 53:5-10"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "The Sacrifice - His Selfless Love",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Communion Service"
+    },
+    {
+      "type": "song",
+      "song": 332
+    },
+    {
+      "type": "song",
+      "song": 130
+    },
+    {
+      "type": "song",
+      "song": 160
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
