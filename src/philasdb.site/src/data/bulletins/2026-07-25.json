@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "date": "2026-07-25",
+  "sabbathSchool": {
+    "topic": "Mary, The Mother of Jesus",
+    "study": "Luke 2:15-19;John 2:1-5;19:25-27",
+    "background": "Luke 2:15-19;John 2:1-5;19:25-27",
+    "devotional": "Revelation 12:1-6"
+  },
+  "announcements": [
+    {
+      "description": "Conference Sessions 2026",
+      "startDate": "2026-07-21",
+      "endDate": "2026-07-26",
+      "location": "Calvin University, 3201 Burton St SE, Grand Rapids, MI 49546, USA"
+    },
+    {
+      "description": "Graduation Service",
+      "startDate": "2026-08-01"
+    },
+    {
+      "description": "Mid-Year Business Meeting",
+      "startDate": "2026-08-02",
+      "location": "Zoom"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 49:15"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 301
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 49:1-17"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 518
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Luke 21:19"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Possess Ye Your Souls",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Communion Service"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 404
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
