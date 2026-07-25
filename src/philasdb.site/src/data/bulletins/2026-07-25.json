@@ -85,10 +85,6 @@
       }
     },
     {
-      "type": "text",
-      "label": "Communion Service"
-    },
-    {
       "type": "song",
       "label": "Closing Song",
       "song": 404
