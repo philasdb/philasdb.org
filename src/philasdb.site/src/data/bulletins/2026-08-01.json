@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "date": "2026-08-01",
+  "sabbathSchool": {
+    "topic": "Thomas, The Honest Doubter",
+    "study": "John 11:14-16; 14:5-8;20:24-29;21:1-2",
+    "background": "John 11:14-16; 14:5-8;20:24-29;21:1-2",
+    "devotional": "Psalm 91:1-6"
+  },
+  "announcements": [
+    {
+      "description": "Graduation Service",
+      "startDate": "2026-08-01"
+    },
+    {
+      "description": "Prayer & Fasting Service",
+      "startDate": "2026-08-08"
+    },
+    {
+      "description": "Mid-Year Business Meeting",
+      "startDate": "2026-08-02",
+      "location": "Zoom"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Proverbs 3:1"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 44
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Proverbs 3:1-10"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 39
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Jeremiah 19:1-15"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Go Forward in Faith",
+        "speaker": "Pastor Oakley"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Recognition of Graduates"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 475
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
