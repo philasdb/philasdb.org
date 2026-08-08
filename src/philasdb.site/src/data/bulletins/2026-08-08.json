@@ -1,0 +1,131 @@
+{
+  "version": 2,
+  "date": "2026-08-08",
+  "sabbathSchool": {
+    "topic": "Stephen, Early Interpreter of Christianity",
+    "study": "Acts 6:7-10; 7:54-60",
+    "background": "Acts 6:1-7:60",
+    "devotional": "Luke 23:32-43"
+  },
+  "announcements": [
+    {
+      "description": "Prayer & Fasting Service",
+      "startDate": "2026-08-08"
+    },
+    {
+      "description": "Mid-Year Business Meeting",
+      "startDate": "2026-08-02",
+      "location": "Zoom"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "2 Chronicles 7:14"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 109
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 25:1-10"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 345
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": " 2 Kings 8:12-28"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "(Young Leaders Church will separate)"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Reflection",
+        "speaker": "Sis. Hannah Ayars"
+      }
+    },
+    {
+      "type": "song",
+      "song": 378
+    },
+    {
+      "type": "text",
+      "label": "Testimonies"
+    },
+    {
+      "type": "text",
+      "label": "Prayer Requests"
+    },
+    {
+      "type": "song",
+      "song": 92
+    },
+    {
+      "type": "text",
+      "label": "Prayer Session"
+    },
+    {
+      "type": "song",
+      "song": 85
+    },
+    {
+      "type": "text",
+      "label": "Prayer Session (Continued)"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 220
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
