@@ -16,7 +16,7 @@
     "astro": "^7.0.3",
     "lit": "3.3.3",
     "tslib": "^2.8.1",
-    "video.js": "^8.23.7"
+    "video.js": "^8.24.0"
   },
   "devDependencies": {
     "sharp": "^0.34.5",
