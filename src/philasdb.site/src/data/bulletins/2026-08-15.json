@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "date": "2026-08-15",
+  "sabbathSchool": {
+    "topic": "Saul of Tarsus, From Pharisee to Christian",
+    "study": "Acts 22:3-15",
+    "background": "Acts 22:3-15",
+    "devotional": "Psalm 86:1-10"
+  },
+  "announcements": [
+    {
+      "description": "Advisory Meeting",
+      "startDate": "2026-08-23",
+      "location": "Zoom",
+      "startTime": "6PM"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 39:1"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 96
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 39"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 545
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Luke 21:19"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "(Young Leaders Church will separate)"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Reflection",
+        "speaker": "Sis. Hannah Ayars"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 200
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    },
+    {
+      "type": "song",
+      "label": "(Song for Vespers)",
+      "song": 73
+    }
+  ]
+}
