@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "date": "2026-08-22",
+  "sabbathSchool": {
+    "topic": "Timothy, The Influence of Home Training",
+    "study": "2 Timothy 1:1-6;3:14-16",
+    "background": "Acts 16:1-3;Philippians 2:19-22;2 Timothy 1:1-6;3:14-16",
+    "devotional": "Matthew 12:46-50"
+  },
+  "announcements": [
+    {
+      "description": "Advisory Meeting",
+      "startDate": "2026-08-23",
+      "location": "Zoom",
+      "time": "6PM"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-08-29"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "2 Corinthians 3:17"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 109
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 107:1-14"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 469
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Galations 5:1"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "text",
+      "label": "(Young Leaders Church will separate)"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "I Stand Liberated",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 256
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
