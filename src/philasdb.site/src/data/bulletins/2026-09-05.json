@@ -60,7 +60,7 @@
     {
       "type": "text",
       "label": "13th Sabbath Lesson Reviews",
-      "underlined": true
+      "italic": true
     },
     {
       "type": "text",
