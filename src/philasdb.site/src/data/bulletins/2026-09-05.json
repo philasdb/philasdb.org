@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "date": "2026-09-05",
+  "sabbathSchool": {
+    "topic": "Lydia, Judged to Be Faithful",
+    "study": "Acts 16:11-15,40",
+    "background": "Acts 16:11-40",
+    "devotional": "James 2:14-26"
+  },
+  "announcements": [
+    {
+      "description": "Baptism Service",
+      "startDate": "2026-09-12"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 107:1"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 157
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 107:1-25"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 518
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "13th Sabbath Lesson Reviews"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Lesson 1 & 2"
+    },
+    {
+      "type": "text",
+      "label": "Lesson 3 & 4"
+    },
+    {
+      "type": "text",
+      "label": "Music Selection",
+      "presentedBy": "Sis. Lucy Griffiths"
+    },
+    {
+      "type": "text",
+      "label": "Lesson 7 & 8"
+    },
+    {
+      "type": "text",
+      "label": "Lesson 9 & 10"
+    },
+    {
+      "type": "text",
+      "label": "Lesson 12 & 13"
+    },
+    {
+      "type": "text",
+      "label": "Quiz",
+      "presentedBy": "Sis. Hannah Sheriff"
+    },
+    {
+      "type": "text",
+      "label": "Music Selection",
+      "presentedBy": "Pastor Kenroy Cruickshank"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 535
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
