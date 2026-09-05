@@ -2,10 +2,10 @@
   "version": 2,
   "date": "2026-09-05",
   "sabbathSchool": {
-    "topic": "Lydia, Judged to Be Faithful",
-    "study": "Acts 16:11-15,40",
-    "background": "Acts 16:11-40",
-    "devotional": "James 2:14-26"
+    "topic": "The Covenant Continues",
+    "study": "Joshua 1:1-11",
+    "background": "Joshua 1",
+    "devotional": "Daniel 10:18-21"
   },
   "announcements": [
     {
@@ -72,12 +72,11 @@
     },
     {
       "type": "text",
-      "label": "Music Selection",
-      "presentedBy": "Sis. Lucy Griffiths"
+      "label": "Lesson 7 & 8"
     },
     {
       "type": "text",
-      "label": "Lesson 7 & 8"
+      "label": "Selection by Sis. Lucy Griffiths"
     },
     {
       "type": "text",
@@ -91,11 +90,6 @@
       "type": "text",
       "label": "Quiz",
       "presentedBy": "Sis. Hannah Sheriff"
-    },
-    {
-      "type": "text",
-      "label": "Music Selection",
-      "presentedBy": "Pastor Kenroy Cruickshank"
     },
     {
       "type": "song",
