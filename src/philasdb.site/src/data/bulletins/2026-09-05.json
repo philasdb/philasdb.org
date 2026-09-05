@@ -58,10 +58,9 @@
       "label": "Special Music"
     },
     {
-      "type": "message",
-      "message": {
-        "title": "13th Sabbath Lesson Reviews"
-      }
+      "type": "text",
+      "label": "13th Sabbath Lesson Reviews",
+      "underlined": true
     },
     {
       "type": "text",
