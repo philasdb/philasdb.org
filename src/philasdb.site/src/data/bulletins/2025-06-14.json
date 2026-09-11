@@ -1,39 +1,37 @@
 {
-    "date":"2025-06-14",
-    "sabbathSchool":{
-        "topic":"Abraham Makes an Offering",
-        "study": "Genesis 22:1-14",
-        "background": "Genesis 22:1-19",
-        "devotional": "Romans 4:1-15"
+  "date": "2025-06-14",
+  "sabbathSchool": {
+    "topic": "Abraham Makes an Offering",
+    "study": "Genesis 22:1-14",
+    "background": "Genesis 22:1-19",
+    "devotional": "Romans 4:1-15"
+  },
+  "announcements": [
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
     },
-    "announcements": [
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-        ,
-        {
-            "description": "Graduation Service",
-            "startDate": "2025-06-28"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "John 10:37-38",
-    "openingSong":16,
-    "responsiveReading":"John 10:30-38",
-    "tithesAndOfferingSong": 550,
-    "scriptureReading": "Luke 15:11-22",
-    "message": {
-        "title":"The Prodigal Father",
-        "speaker": "Pastor Okley"
+    {
+      "description": "Graduation Service",
+      "startDate": "2025-06-28"
     },
-    "closingSong":470
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "John 10:37-38",
+  "openingSong": 16,
+  "responsiveReading": "John 10:30-38",
+  "tithesAndOfferingSong": 550,
+  "scriptureReading": "Luke 15:11-22",
+  "message": {
+    "title": "The Prodigal Father",
+    "speaker": "Pastor Okley"
+  },
+  "closingSong": 470
 }

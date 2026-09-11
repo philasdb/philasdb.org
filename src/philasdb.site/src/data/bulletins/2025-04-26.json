@@ -1,54 +1,53 @@
 {
-    "date":"2025-04-26",
-    "sabbathSchool":{
-        "topic":"The Day of Atonement",
-        "study": "Revelation 5:1-10",
-        "background": "Revelation 5",
-        "devotional": "Psalm 118:15-29"
+  "date": "2025-04-26",
+  "sabbathSchool": {
+    "topic": "The Day of Atonement",
+    "study": "Revelation 5:1-10",
+    "background": "Revelation 5",
+    "devotional": "Psalm 118:15-29"
+  },
+  "announcements": [
+    {
+      "description": "Plainfield SDB Church Ordination Service & Fundraising Rally/Harvest",
+      "startDate": "2025-05-03",
+      "location": "501 Central Ave, Plainfield, NJ 07060"
     },
-    "announcements": [
-        {
-            "description": "Plainfield SDB Church Ordination Service & Fundraising Rally/Harvest",
-            "startDate": "2025-05-03",
-            "location": "501 Central Ave, Plainfield, NJ 07060"
-        },
-        {
-            "description": "Mother's Day Service",
-            "startDate": "2025-05-10"
-        },
-        {
-            "description":"Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
-            "startDate":"2025-05-13"
-        },
-        {
-            "description":"Eastern Association Meeting",
-            "startDate":"2025-05-17",
-            "endDate":"2025-05-18"
-        },
-        {
-            "description":"Memorial Day Picnic",
-            "startDate":"2025-05-25",
-            "location":"Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-  
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Psalm 50:10-11",
-    "openingSong":91,
-    "responsiveReading":"Psalm 50",
-    "tithesAndOfferingSong":81,
-    "specialMusic": 215,
-    "scriptureReading": "Matthew 26:36-50",
-    "message": {
-        "title":"Spiritual Warfare Part. 2",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Mother's Day Service",
+      "startDate": "2025-05-10"
     },
-    "closingSong":179
+    {
+      "description": "Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
+      "startDate": "2025-05-13"
+    },
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2025-05-17",
+      "endDate": "2025-05-18"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2025-05-25",
+      "location": "Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
+    },
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Psalm 50:10-11",
+  "openingSong": 91,
+  "responsiveReading": "Psalm 50",
+  "tithesAndOfferingSong": 81,
+  "specialMusic": 215,
+  "scriptureReading": "Matthew 26:36-50",
+  "message": {
+    "title": "Spiritual Warfare Part. 2",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 179
 }

@@ -1,52 +1,52 @@
 {
-    "date":"2025-11-08",
-    "sabbathSchool":{
-        "topic":"Judah Taken Captive",
-        "study": "2 Kings 24:18-25:9",
-        "background": "2 Kings 23:1-25:21",
-        "devotional": "Lamentations 1:18-22"
+  "date": "2025-11-08",
+  "sabbathSchool": {
+    "topic": "Judah Taken Captive",
+    "study": "2 Kings 24:18-25:9",
+    "background": "2 Kings 23:1-25:21",
+    "devotional": "Lamentations 1:18-22"
+  },
+  "announcements": [
+    {
+      "description": "Faith SDB Annual Rally",
+      "startDate": "2025-11-08",
+      "time": "5:00 PM",
+      "location": "4230 White Plains Rd, Bronx, NY 10466",
+      "additionalInfo": "Adults: $30, Ages 12-18: $15"
     },
-    "announcements": [
-        {
-            "description": "Faith SDB Annual Rally",
-            "startDate": "2025-11-08",
-            "time": "5:00 PM",
-            "location": "4230 White Plains Rd, Bronx, NY 10466",
-            "additionalInfo": "Adults: $30, Ages 12-18: $15"
-        },
-        {
-            "description": "Pastor Appreciation Day",
-            "startDate": "2025-11-08"
-        },
-        {
-            "description": "Clean Up/Clean Out at Church",
-            "startDate": "2025-11-12",
-            "time": "7:00 PM"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 31:24",
-    "openingSong":237,
-    "responsiveReading":"Psalm 8",
-    "tithesAndOfferingSong": {
-        "title": "Come, Now is the Time to Worship (YouTube)",
-        "artist": "Maranatha! Music",
-        "url": "https://www.youtube.com/watch?v=USQn4IUmS20"
+    {
+      "description": "Pastor Appreciation Day",
+      "startDate": "2025-11-08"
     },
-    "scriptureReading": "1 Timothy 5:17-18",
-    "youth": true,
-    "message": {
-        "title":"A Good Pastor is a Blessing",
-        "speaker": "Deacon Edson Barrett"
-    },
-    "itemAfterMessage": "Words of Appreciation",
-    "itemAfterMessageSong": {
-        "title": "Thank You Lord (For Your Blessings on Me) (YouTube)",
-        "artist": "Chris Else",
-        "url": "https://www.youtube.com/watch?v=6h15ezZZzpA"
-    },
-    "closingSong": 545
+    {
+      "description": "Clean Up/Clean Out at Church",
+      "startDate": "2025-11-12",
+      "time": "7:00 PM"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 31:24",
+  "openingSong": 237,
+  "responsiveReading": "Psalm 8",
+  "tithesAndOfferingSong": {
+    "title": "Come, Now is the Time to Worship (YouTube)",
+    "artist": "Maranatha! Music",
+    "url": "https://www.youtube.com/watch?v=USQn4IUmS20"
+  },
+  "scriptureReading": "1 Timothy 5:17-18",
+  "youth": true,
+  "message": {
+    "title": "A Good Pastor is a Blessing",
+    "speaker": "Deacon Edson Barrett"
+  },
+  "itemAfterMessage": "Words of Appreciation",
+  "itemAfterMessageSong": {
+    "title": "Thank You Lord (For Your Blessings on Me) (YouTube)",
+    "artist": "Chris Else",
+    "url": "https://www.youtube.com/watch?v=6h15ezZZzpA"
+  },
+  "closingSong": 545
 }

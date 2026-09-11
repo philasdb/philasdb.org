@@ -1,39 +1,39 @@
 {
-    "date":"2025-04-05",
-    "sabbathSchool":{
-        "topic":"Christ's Once for All Sacrifice",
-        "study": "Hebrews 9:23-10:25",
-        "background": "Hebrews 9:23-10:25",
-        "devotional": "Mark 10:41-45"
+  "date": "2025-04-05",
+  "sabbathSchool": {
+    "topic": "Christ's Once for All Sacrifice",
+    "study": "Hebrews 9:23-10:25",
+    "background": "Hebrews 9:23-10:25",
+    "devotional": "Mark 10:41-45"
+  },
+  "announcements": [
+    {
+      "description": "Easter/Resurrection Service",
+      "startDate": "2025-04-19"
     },
-    "announcements": [
-        {
-            "description": "Easter/Resurrection Service",
-            "startDate": "2025-04-19"
-        },
-        {
-            "description": "Mother's Day Service",
-            "startDate": "2025-05-10"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*After Lunch every Sabbath will be Vespers*",
-        "*Prayer & Bible Study every Wednesday from 6-7:30pm*",
-        "*Prayer Meeting every first Monday of the month at 7pm on Zoom*"
-    ],
-    "thoughtOfTheDay": "Genesis 2:2-3",
-    "openingSong":2,
-    "responsiveReading":"Psalm 19",
-    "tithesAndOfferingSong":37,
-    "scriptureReading": "Hebrews 4:8-11",
-    "message": {
-        "title":"Seven Days of Creation",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Mother's Day Service",
+      "startDate": "2025-05-10"
     },
-    "closingSong":16
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*After Lunch every Sabbath will be Vespers*",
+    "*Prayer & Bible Study every Wednesday from 6-7:30pm*",
+    "*Prayer Meeting every first Monday of the month at 7pm on Zoom*"
+  ],
+  "thoughtOfTheDay": "Genesis 2:2-3",
+  "openingSong": 2,
+  "responsiveReading": "Psalm 19",
+  "tithesAndOfferingSong": 37,
+  "scriptureReading": "Hebrews 4:8-11",
+  "message": {
+    "title": "Seven Days of Creation",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 16
 }

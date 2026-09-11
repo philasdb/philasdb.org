@@ -1,32 +1,31 @@
 {
-    "date":"2025-10-04",
-    "sabbathSchool":{
-        "topic":"The Early Ministry of Jeremiah",
-        "study": "Jeremiah 1:6-10;26:8-9,12-15",
-        "background": "Jeremiah 1:1-10;6:10-11;8:18;9:2;26:1-24",
-        "devotional": "Jeremiah 1:11-19"
-    },
-    "announcements": [
-
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04",
-            "time": "4:00 PM"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Isaiah 9:7",
-    "openingSong":421,
-    "responsiveReading":"Isaiah 9:1-9",
-    "tithesAndOfferingSong": 94,
-    "scriptureReading": "Matthew 1:18-20",
-    "youth": true,
-    "message": {
-        "title":"Why Jesus is our Savior",
-        "speaker": "Pastor Kenroy Cruickshank"
-    },
-    "closingSong": 351
+  "date": "2025-10-04",
+  "sabbathSchool": {
+    "topic": "The Early Ministry of Jeremiah",
+    "study": "Jeremiah 1:6-10;26:8-9,12-15",
+    "background": "Jeremiah 1:1-10;6:10-11;8:18;9:2;26:1-24",
+    "devotional": "Jeremiah 1:11-19"
+  },
+  "announcements": [
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04",
+      "time": "4:00 PM"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Isaiah 9:7",
+  "openingSong": 421,
+  "responsiveReading": "Isaiah 9:1-9",
+  "tithesAndOfferingSong": 94,
+  "scriptureReading": "Matthew 1:18-20",
+  "youth": true,
+  "message": {
+    "title": "Why Jesus is our Savior",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 351
 }

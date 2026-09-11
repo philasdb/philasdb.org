@@ -1,33 +1,33 @@
 {
-    "date":"2025-10-18",
-    "sabbathSchool":{
-        "topic":"The Story of the Rechabites",
-        "study": "Jeremiah 35:5-11",
-        "background": "Jeremiah 35:1-19",
-        "devotional": "2 Corinthians 6:16-7:4"
-    },
-    "announcements": [
-        {
-            "description": "Faith SDB Annual Rally",
-            "startDate": "2025-11-08",
-            "time": "5:00 PM",
-            "location": "4230 White Plains Rd, Bronx, NY 10466",
-            "additionalInfo": "Adults: $30, Ages 12-18: $15"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 103:15",
-    "openingSong":140,
-    "responsiveReading":"Psalm 103:1-17",
-    "tithesAndOfferingSong": 488,
-    "scriptureReading": "1 Kings 11:1-10 ",
-    "youth": true,
-    "message": {
-        "title":"What is Vanity? (Part 2)",
-        "speaker": "Pastor Kenroy Cruickshank"
-    },
-    "closingSong": 487
+  "date": "2025-10-18",
+  "sabbathSchool": {
+    "topic": "The Story of the Rechabites",
+    "study": "Jeremiah 35:5-11",
+    "background": "Jeremiah 35:1-19",
+    "devotional": "2 Corinthians 6:16-7:4"
+  },
+  "announcements": [
+    {
+      "description": "Faith SDB Annual Rally",
+      "startDate": "2025-11-08",
+      "time": "5:00 PM",
+      "location": "4230 White Plains Rd, Bronx, NY 10466",
+      "additionalInfo": "Adults: $30, Ages 12-18: $15"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 103:15",
+  "openingSong": 140,
+  "responsiveReading": "Psalm 103:1-17",
+  "tithesAndOfferingSong": 488,
+  "scriptureReading": "1 Kings 11:1-10 ",
+  "youth": true,
+  "message": {
+    "title": "What is Vanity? (Part 2)",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 487
 }

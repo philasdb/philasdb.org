@@ -1,37 +1,37 @@
 {
-    "date":"2025-09-27",
-    "sabbathSchool":{
-        "topic":"The Suffering Servant of the Lord",
-        "study": "Isaiah 53:1-7",
-        "background": "Isaiah 52:13-53:12",
-        "devotional": "Matthew 12:14-21"
+  "date": "2025-09-27",
+  "sabbathSchool": {
+    "topic": "The Suffering Servant of the Lord",
+    "study": "Isaiah 53:1-7",
+    "background": "Isaiah 52:13-53:12",
+    "devotional": "Matthew 12:14-21"
+  },
+  "announcements": [
+    {
+      "description": "50+ Anniversary of The First Seventh Day Baptist Church of Toronto",
+      "startDate": "2025-09-27",
+      "endDate": "2025-09-28",
+      "time": "5PM-10PM",
+      "location": "The First Seventh Day Baptist Church of Toronto, 49 Brydon Drive."
     },
-    "announcements": [
-        {
-            "description": "50+ Anniversary of The First Seventh Day Baptist Church of Toronto",
-            "startDate": "2025-09-27",
-            "endDate": "2025-09-28",
-            "time": "5PM-10PM",
-            "location": "The First Seventh Day Baptist Church of Toronto, 49 Brydon Drive."
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 18:22",
-    "openingSong":531,
-    "responsiveReading":"Psalm 18:1-23",
-    "tithesAndOfferingSong": 532,
-    "scriptureReading": "Genesis 2:19-23",
-    "youth": true,
-    "message": {
-        "title":"God the Eternal",
-        "speaker": "Pastor Kenroy Cruickshank"
-    },
-    "closingSong": 520
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 18:22",
+  "openingSong": 531,
+  "responsiveReading": "Psalm 18:1-23",
+  "tithesAndOfferingSong": 532,
+  "scriptureReading": "Genesis 2:19-23",
+  "youth": true,
+  "message": {
+    "title": "God the Eternal",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 520
 }

@@ -1,49 +1,45 @@
 {
-    "date":"2025-08-09",
-    "sabbathSchool":{
-        "topic":"Our Bodies Belong to God",
-        "study": "1 Corinthians 6:12-20",
-        "background": "Romans 12:1-21;1 Corinthians 6:12-20",
-        "devotional": "Psalm 139:13-24"
+  "date": "2025-08-09",
+  "sabbathSchool": {
+    "topic": "Our Bodies Belong to God",
+    "study": "1 Corinthians 6:12-20",
+    "background": "Romans 12:1-21;1 Corinthians 6:12-20",
+    "devotional": "Psalm 139:13-24"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2025-08-09"
     },
-    "announcements": [
-        {
-            "description": "Communion Service",
-            "startDate": "2025-08-09"
-        },
-        {
-            "description": "Business Meeting",
-            "startDate": "2025-08-17"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Psalm 51:10",
-    "openingSong":266,
-    "responsiveReading":"Psalm 51:1-19",
-    "tithesAndOfferingSong": 66,
-    "scriptureReading": "1 Corinthians 11:26-30",
-    "message": {
-        "title":"Examine Yourself",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Business Meeting",
+      "startDate": "2025-08-17"
     },
-    "communion": {
-        "description":"Lead by Pastor Kenroy Cruickshank",
-        "songs": [
-            113,
-            160
-        ]
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "closingSong": 415
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Psalm 51:10",
+  "openingSong": 266,
+  "responsiveReading": "Psalm 51:1-19",
+  "tithesAndOfferingSong": 66,
+  "scriptureReading": "1 Corinthians 11:26-30",
+  "message": {
+    "title": "Examine Yourself",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "communion": {
+    "description": "Lead by Pastor Kenroy Cruickshank",
+    "songs": [113, 160]
+  },
+  "closingSong": 415
 }

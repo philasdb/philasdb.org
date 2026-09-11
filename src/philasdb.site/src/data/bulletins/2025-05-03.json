@@ -1,55 +1,54 @@
 {
-    "date":"2025-05-03",
-    "sabbathSchool":{
-        "topic":"David's Sacrifice",
-        "study": "1 Chronicles 21:14-30",
-        "background": "1 Chronicles 21:1-22:1",
-        "devotional": "2 Peter 3:11-18"
+  "date": "2025-05-03",
+  "sabbathSchool": {
+    "topic": "David's Sacrifice",
+    "study": "1 Chronicles 21:14-30",
+    "background": "1 Chronicles 21:1-22:1",
+    "devotional": "2 Peter 3:11-18"
+  },
+  "announcements": [
+    {
+      "description": "Plainfield SDB Church Ordination Service & Fundraising Rally/Harvest",
+      "startDate": "2025-05-03",
+      "location": "501 Central Ave, Plainfield, NJ 07060"
     },
-    "announcements": [
-        {
-            "description": "Plainfield SDB Church Ordination Service & Fundraising Rally/Harvest",
-            "startDate": "2025-05-03",
-            "location": "501 Central Ave, Plainfield, NJ 07060"
-        },
-        {
-            "description": "Mother's Day Service",
-            "startDate": "2025-05-10"
-        },
-        {
-            "description":"Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
-            "startDate":"2025-05-13",
-            "time":"7:00 PM",
-            "additionalInfo":"*Will also be on Zoom*"
-        },
-        {
-            "description":"Eastern Association Meeting",
-            "startDate":"2025-05-17",
-            "endDate":"2025-05-18"
-        },
-        {
-            "description":"Memorial Day Picnic",
-            "startDate":"2025-05-25",
-            "location":"Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-  
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Ecclesiastes 11:5",
-    "openingSong":380,
-    "responsiveReading":"Psalm 3",
-    "tithesAndOfferingSong":209,
-    "scriptureReading": "Jeremiah 20:7-18",
-    "message": {
-        "title":"What Is a Successful Ministry?",
-        "speaker": "Deacon Edson Barrett"
+    {
+      "description": "Mother's Day Service",
+      "startDate": "2025-05-10"
     },
-    "closingSong":465
+    {
+      "description": "Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
+      "startDate": "2025-05-13",
+      "time": "7:00 PM",
+      "additionalInfo": "*Will also be on Zoom*"
+    },
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2025-05-17",
+      "endDate": "2025-05-18"
+    },
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2025-05-25",
+      "location": "Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
+    },
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Ecclesiastes 11:5",
+  "openingSong": 380,
+  "responsiveReading": "Psalm 3",
+  "tithesAndOfferingSong": 209,
+  "scriptureReading": "Jeremiah 20:7-18",
+  "message": {
+    "title": "What Is a Successful Ministry?",
+    "speaker": "Deacon Edson Barrett"
+  },
+  "closingSong": 465
 }

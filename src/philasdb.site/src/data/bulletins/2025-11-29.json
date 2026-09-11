@@ -1,137 +1,135 @@
 {
-    "version": 2,
-    "date":"2025-11-29",
-    "sabbathSchool":{
-        "topic":"Ezekiel's Vision of Hope'",
-        "study": "Ezekiel 47:1-9,12",
-        "background": "Ezekiel 47:1-12",
-        "devotional": "Revelation 7:9-17"
+  "version": 2,
+  "date": "2025-11-29",
+  "sabbathSchool": {
+    "topic": "Ezekiel's Vision of Hope'",
+    "study": "Ezekiel 47:1-9,12",
+    "background": "Ezekiel 47:1-12",
+    "devotional": "Revelation 7:9-17"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-11-29"
     },
-    "announcements": [
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-11-29"
-        },
-        {
-            "description": "Thirteenth Sabbath",
-            "startDate": "2025-12-06"
-        },
-        {
-            "description": "Communion Service",
-            "startDate": "2025-12-13"
-        },
-        {
-            "description": "Children's Christmas Banquet",
-            "startDate": "2025-12-20",
-            "time": "4 PM",
-            "additionalInfo": "Tickets are $25."
-        },
-        {
-            "description": "December Business Meeting",
-            "startDate": "2025-12-21",
-            "time": "6:30 PM",
-            "location": "Zoom"
-        },
-        {
-            "description": "January Business Meeting",
-            "startDate": "2026-01-18",
-            "time": "6:30 PM",
-            "location": "Zoom"
-        }
-    ],
-    "notes": [
-        "We are having a special collection for Jamaican Hurricane Relief",
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "worshipService": [
-        {
-            "type": "worshipLeader",
-            "name": "Brother Eric Avent Jr."
-        },
-        {
-            "type": "thoughtOfTheDay",
-            "reference": "Psalm 118:1"
-        },
-        {
-            "type": "song",
-            "label": "Opening Song",
-            "song": 544
-        },
-        {
-            "type": "text",
-            "label": "Welcome of New Visitors"
-        },
-        {
-            "type": "text",
-            "label": "Opening Prayer",
-            "content": "*Prayer Requests*",
-            "italic": true,
-            "small": true,
-            "presentedBy": "Brother Rohan Lewis"
-        },
-        {
-            "type": "scripture",
-            "label": "Responsive Reading",
-            "reference": "Psalm 100",
-            "presentedBy": "Brother Tyler Mangahan"
-        },
-        {
-            "type": "tithesAndOffering",
-            "song": {
-                "title": "Thank You Lord (YouTube)",
-                "artist": "Don Moen",
-                "url": "https://youtu.be/sax4aTgZ9dw?si=phGypn1ZoP1VAiPv"
-            },
-            "presentedBy": "Sister Simone Cruickshank"
-        },
-        {
-            "type": "scripture",
-            "label": "Scripture Reading",
-            "reference": "Philippians 4:6-7",
-            "presentedBy": "Brother Caden Lewis"
-        },
-        {
-            "type":"text",
-            "label": "Special Music",
-            "presentedBy": "Pastor Kenroy Cruickshank and Young People"
-        },
-        {
+    {
+      "description": "Thirteenth Sabbath",
+      "startDate": "2025-12-06"
+    },
+    {
+      "description": "Communion Service",
+      "startDate": "2025-12-13"
+    },
+    {
+      "description": "Children's Christmas Banquet",
+      "startDate": "2025-12-20",
+      "time": "4 PM",
+      "additionalInfo": "Tickets are $25."
+    },
+    {
+      "description": "December Business Meeting",
+      "startDate": "2025-12-21",
+      "time": "6:30 PM",
+      "location": "Zoom"
+    },
+    {
+      "description": "January Business Meeting",
+      "startDate": "2026-01-18",
+      "time": "6:30 PM",
+      "location": "Zoom"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "worshipLeader",
+      "name": "Brother Eric Avent Jr."
+    },
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 118:1"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 544
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true,
+      "presentedBy": "Brother Rohan Lewis"
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 100",
+      "presentedBy": "Brother Tyler Mangahan"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "Thank You Lord (YouTube)",
+        "artist": "Don Moen",
+        "url": "https://youtu.be/sax4aTgZ9dw?si=phGypn1ZoP1VAiPv"
+      },
+      "presentedBy": "Sister Simone Cruickshank"
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Philippians 4:6-7",
+      "presentedBy": "Brother Caden Lewis"
+    },
+    {
+      "type": "text",
+      "label": "Special Music",
+      "presentedBy": "Pastor Kenroy Cruickshank and Young People"
+    },
+    {
+      "type": "custom",
+      "label": "Poem about Thanksgiving",
+      "presentedBy": "Sister Angel Plange"
+    },
+    {
+      "type": "custom",
+      "label": "The Pilgrim's First Thanksgiving",
+      "presentedBy": "Brother Elijah Cruickshank"
+    },
+    {
+      "type": "text",
+      "label": "Thanksgiving Testimonies"
+    },
+    {
+      "type": "text",
+      "label": "Thanksgiving Trivia"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 545
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer",
+      "presentedBy": "Brother Chad Donato"
+    },
+    {
+      "type": "text",
+      "label": "Benediction",
+      "presentedBy": "Brother Eric Avent Jr."
+    }
+  ],
 
-            "type": "custom",
-            "label": "Poem about Thanksgiving",
-            "presentedBy": "Sister Angel Plange"
-        },
-        {
-            "type": "custom",
-            "label": "The Pilgrim's First Thanksgiving",
-            "presentedBy": "Brother Elijah Cruickshank"
-        },
-        {
-            "type": "text",
-            "label": "Thanksgiving Testimonies"
-        },
-        {
-            "type": "text",
-            "label": "Thanksgiving Trivia"
-        },
-        {
-            "type": "song",
-            "label": "Closing Song",
-            "song": 545
-        },
-        {
-            "type": "text",
-            "label": "Closing Prayer",
-            "presentedBy":"Brother Chad Donato"
-        },
-        {
-            "type": "text",
-            "label": "Benediction",
-            "presentedBy":"Brother Eric Avent Jr."
-        }
-
-    ],
-
-    "youth": false
+  "youth": false
 }

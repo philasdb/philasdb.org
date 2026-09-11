@@ -9,7 +9,7 @@ export function migrateBulletinToV2(bulletin: Bulletin): BulletinV2 {
   if (bulletin.version === 2) {
     const v2 = bulletin as BulletinV2;
     // If it has youth, add it to worshipService and remove
-    if ('youth' in v2 && v2.youth) {
+    if ("youth" in v2 && v2.youth) {
       const newV2 = { ...v2 };
       delete (newV2 as any).youth;
       newV2.worshipService = [...newV2.worshipService, { type: "youth" }];

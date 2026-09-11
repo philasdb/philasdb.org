@@ -1,40 +1,39 @@
 {
-    "date":"2025-07-12",
-    "sabbathSchool":{
-        "topic":"Lord of the Sabbath",
-        "study": "Matthew 12:1-8",
-        "background": "Matthew 12:1-14; Mark 2:23-28; Luke 6:1-11",
-        "devotional": "Luke 13:20-17"
+  "date": "2025-07-12",
+  "sabbathSchool": {
+    "topic": "Lord of the Sabbath",
+    "study": "Matthew 12:1-8",
+    "background": "Matthew 12:1-14; Mark 2:23-28; Luke 6:1-11",
+    "devotional": "Luke 13:20-17"
+  },
+  "announcements": [
+    {
+      "description": "General Conference",
+      "startDate": "2025-07-22",
+      "endDate": "2025-07-27",
+      "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
     },
-    "announcements": [
-        {
-            "description": "General Conference",
-            "startDate": "2025-07-22",
-            "endDate": "2025-07-27",
-            "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Psalms 50:15",
-    "openingSong":303,
-    "responsiveReading":"Psalms 50:1-18",
-    "tithesAndOfferingSong": 291,
-    "scriptureReading": "1 Kings 28:1-13",
-    "message": {
-        "title":"In Times of Trouble Who Do You Call On?",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "closingSong":328
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Psalms 50:15",
+  "openingSong": 303,
+  "responsiveReading": "Psalms 50:1-18",
+  "tithesAndOfferingSong": 291,
+  "scriptureReading": "1 Kings 28:1-13",
+  "message": {
+    "title": "In Times of Trouble Who Do You Call On?",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 328
 }

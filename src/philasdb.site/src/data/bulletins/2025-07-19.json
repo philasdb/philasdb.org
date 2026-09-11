@@ -1,42 +1,41 @@
 {
-    "date":"2025-07-19",
-    "sabbathSchool":{
-        "topic":"Cleansing the Temple",
-        "study": "John 2:13-25",
-        "background": "John 2:13-25;Matthew 21:12-17;Mark 11:15-19;Luke 19:45-48",
-        "devotional": "Jeremiah 7:1-15"
+  "date": "2025-07-19",
+  "sabbathSchool": {
+    "topic": "Cleansing the Temple",
+    "study": "John 2:13-25",
+    "background": "John 2:13-25;Matthew 21:12-17;Mark 11:15-19;Luke 19:45-48",
+    "devotional": "Jeremiah 7:1-15"
+  },
+  "announcements": [
+    {
+      "description": "General Conference",
+      "startDate": "2025-07-22",
+      "endDate": "2025-07-27",
+      "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
     },
-    "announcements": [
-        {
-            "description": "General Conference",
-            "startDate": "2025-07-22",
-            "endDate": "2025-07-27",
-            "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Ecclesiastes 10:5-7",
-    "openingSong":265,
-    "responsiveReading":"Psalms 25:1-10",
-    "tithesAndOfferingSong": 312,
-    "scriptureReading": "Luke 10:18-20",
-    "message": {
-        "title":"Spiritual Warfare: Our Legistlative Authority as Sons of God",
-        "speaker": "Evangelist Precious Watt"
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "closingSong":{
-        "title":"Breath Upon"
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
     }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Ecclesiastes 10:5-7",
+  "openingSong": 265,
+  "responsiveReading": "Psalms 25:1-10",
+  "tithesAndOfferingSong": 312,
+  "scriptureReading": "Luke 10:18-20",
+  "message": {
+    "title": "Spiritual Warfare: Our Legistlative Authority as Sons of God",
+    "speaker": "Evangelist Precious Watt"
+  },
+  "closingSong": {
+    "title": "Breath Upon"
+  }
 }

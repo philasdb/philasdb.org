@@ -1,40 +1,39 @@
 {
-    "date":"2025-07-05",
-    "sabbathSchool":{
-        "topic":"The Boy Jesus in the Temple",
-        "study": "Luke 2:41-52",
-        "background": "Luke 2:41-52",
-        "devotional": "Psalm 27"
+  "date": "2025-07-05",
+  "sabbathSchool": {
+    "topic": "The Boy Jesus in the Temple",
+    "study": "Luke 2:41-52",
+    "background": "Luke 2:41-52",
+    "devotional": "Psalm 27"
+  },
+  "announcements": [
+    {
+      "description": "General Conference",
+      "startDate": "2025-07-22",
+      "endDate": "2025-07-27",
+      "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
     },
-    "announcements": [
-        {
-            "description": "General Conference",
-            "startDate": "2025-07-22",
-            "endDate": "2025-07-27",
-            "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Matthew 28:19",
-    "openingSong":146,
-    "responsiveReading":"Isaiah 1:18-27",
-    "tithesAndOfferingSong": 147,
-    "scriptureReading": "Matthew 28:16-20",
-    "message": {
-        "title":"Make Disciples of Every Demographic",
-        "speaker": "Brother Kevin Brey"
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "closingSong":190
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Matthew 28:19",
+  "openingSong": 146,
+  "responsiveReading": "Isaiah 1:18-27",
+  "tithesAndOfferingSong": 147,
+  "scriptureReading": "Matthew 28:16-20",
+  "message": {
+    "title": "Make Disciples of Every Demographic",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 190
 }

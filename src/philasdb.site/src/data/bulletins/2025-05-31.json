@@ -1,39 +1,38 @@
 {
-    "date":"2025-05-31",
-    "sabbathSchool":{
-        "topic":"Cain and Abel Offer Sacrifices",
-        "study": "Genesis 4:1-16",
-        "background": "Genesis 4:1-25",
-        "devotional": "Luke 20:45-21:4"
+  "date": "2025-05-31",
+  "sabbathSchool": {
+    "topic": "Cain and Abel Offer Sacrifices",
+    "study": "Genesis 4:1-16",
+    "background": "Genesis 4:1-25",
+    "devotional": "Luke 20:45-21:4"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-05-31"
     },
-    "announcements": [
-        {
-            "description":"Youth Sabbath",
-            "startDate":"2025-05-31"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "2 Timothy 3:16-17",
-    "openingSong":217,
-    "responsiveReading":"Psalm 2",
-    "tithesAndOfferingSong": 501,
-    "scriptureReading": "Luke 6:1-5",
-    "specialMusic":307,
-    "message": {
-        "title":"Seventh Day Baptist Beliefs and Particulars",
-        "speaker": "Brother Kemuel Bennett & Round Table Discussion"
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
     },
-        "closingSong":77
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "2 Timothy 3:16-17",
+  "openingSong": 217,
+  "responsiveReading": "Psalm 2",
+  "tithesAndOfferingSong": 501,
+  "scriptureReading": "Luke 6:1-5",
+  "specialMusic": 307,
+  "message": {
+    "title": "Seventh Day Baptist Beliefs and Particulars",
+    "speaker": "Brother Kemuel Bennett & Round Table Discussion"
+  },
+  "closingSong": 77
 }

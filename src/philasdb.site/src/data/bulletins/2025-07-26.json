@@ -1,34 +1,33 @@
 {
-    "date":"2025-07-26",
-    "sabbathSchool":{
-        "topic":"Jesus Predicts the Temple Destruction",
-        "study": "Matthew 24:1-8",
-        "background": "Matthew 23:37-24:35;Mark 13:1-23;Luke 21:5-24",
-        "devotional": "Matthew 23:1-12,37-39"
+  "date": "2025-07-26",
+  "sabbathSchool": {
+    "topic": "Jesus Predicts the Temple Destruction",
+    "study": "Matthew 24:1-8",
+    "background": "Matthew 23:37-24:35;Mark 13:1-23;Luke 21:5-24",
+    "devotional": "Matthew 23:1-12,37-39"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "announcements": [
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Romans 10:9",
-    "openingSong":146,
-    "responsiveReading":"Deuteronomy 30:11-19",
-    "tithesAndOfferingSong": 21,
-    "scriptureReading": "Romans 10:4-13",
-    "message": {
-        "title":"What to Say and What to Believe in Order to Be Saved",
-        "speaker": "Brother Kevin Brey"
-    },
-    "closingSong":138
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Romans 10:9",
+  "openingSong": 146,
+  "responsiveReading": "Deuteronomy 30:11-19",
+  "tithesAndOfferingSong": 21,
+  "scriptureReading": "Romans 10:4-13",
+  "message": {
+    "title": "What to Say and What to Believe in Order to Be Saved",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 138
 }

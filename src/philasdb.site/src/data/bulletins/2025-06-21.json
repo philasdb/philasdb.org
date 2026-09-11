@@ -1,40 +1,39 @@
 {
-    "date":"2025-06-21",
-    "sabbathSchool":{
-        "topic":"Isaac Calls on the Name of the Lord",
-        "study": "Genesis 26:24-33",
-        "background": "Genesis 26:1-33",
-        "devotional": "Genesis 26:12-23"
+  "date": "2025-06-21",
+  "sabbathSchool": {
+    "topic": "Isaac Calls on the Name of the Lord",
+    "study": "Genesis 26:24-33",
+    "background": "Genesis 26:1-33",
+    "devotional": "Genesis 26:12-23"
+  },
+  "announcements": [
+    {
+      "description": "Graduation Service",
+      "startDate": "2025-06-28"
     },
-    "announcements": [
-        {
-            "description": "Graduation Service",
-            "startDate": "2025-06-28"
-        }
-        ,
-        {
-            "description": "General Conference",
-            "startDate": "2025-07-22",
-            "endDate": "2025-07-27",
-            "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Genesis 8:21",
-    "openingSong":180,
-    "responsiveReading":"Genesis 6:5-8",
-    "tithesAndOfferingSong": 16,
-    "scriptureReading": "Genesis 8:20-22",
-    "message": {
-        "title":"Noah Built an Altar",
-        "speaker": "Brother Kevin Brey"
+    {
+      "description": "General Conference",
+      "startDate": "2025-07-22",
+      "endDate": "2025-07-27",
+      "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
     },
-    "closingSong":205
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Genesis 8:21",
+  "openingSong": 180,
+  "responsiveReading": "Genesis 6:5-8",
+  "tithesAndOfferingSong": 16,
+  "scriptureReading": "Genesis 8:20-22",
+  "message": {
+    "title": "Noah Built an Altar",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 205
 }

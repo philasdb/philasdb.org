@@ -13,7 +13,7 @@
     "vscode-jsonrpc": "^8.2.1"
   },
   "devDependencies": {
-    "tsx": "^4.22.4",
+    "tsx": "^4.23.13",
     "typescript": "^6.0.3",
     "vite-plus": "catalog:"
   },

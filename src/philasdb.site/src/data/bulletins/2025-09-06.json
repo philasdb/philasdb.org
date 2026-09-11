@@ -1,39 +1,39 @@
 {
-    "date":"2025-09-06",
-    "sabbathSchool":{
-        "topic":"Living Stones in a Spiritual Temple",
-        "study": "Isaiah 6:1-8;38:1-5",
-        "background": "Isaiah 6:1-13;7:1-7;20:1-63;8:1-22",
-        "devotional": "Isaiah 2:1-5"
+  "date": "2025-09-06",
+  "sabbathSchool": {
+    "topic": "Living Stones in a Spiritual Temple",
+    "study": "Isaiah 6:1-8;38:1-5",
+    "background": "Isaiah 6:1-13;7:1-7;20:1-63;8:1-22",
+    "devotional": "Isaiah 2:1-5"
+  },
+  "announcements": [
+    {
+      "description": "Women's Retreat",
+      "startDate": "2025-09-21",
+      "time": "10:30AM-3PM",
+      "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
     },
-    "announcements": [
-        {
-            "description": "Women's Retreat",
-            "startDate": "2025-09-21",
-            "time":"10:30AM-3PM",
-            "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Isaiah 58:14",
-    "openingSong":481,
-    "responsiveReading":"Isaiah 58",
-    "tithesAndOfferingSong": 457,
-    "scriptureReading": "Nehemiah 6:1-15",
-    "youth": true,
-    "message": {
-        "title":"Fixing it Can Be a Fight - The Repairers of the Breach",
-        "speaker": "Evangelist Precious Watt"
-    },
-    "closingSong": {
-        "title":"Repair The Breach",
-        "artist": "Kelly Montinat"
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
     }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Isaiah 58:14",
+  "openingSong": 481,
+  "responsiveReading": "Isaiah 58",
+  "tithesAndOfferingSong": 457,
+  "scriptureReading": "Nehemiah 6:1-15",
+  "youth": true,
+  "message": {
+    "title": "Fixing it Can Be a Fight - The Repairers of the Breach",
+    "speaker": "Evangelist Precious Watt"
+  },
+  "closingSong": {
+    "title": "Repair The Breach",
+    "artist": "Kelly Montinat"
+  }
 }

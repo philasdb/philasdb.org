@@ -1,53 +1,52 @@
 {
-    "date":"2025-05-10",
-    "sabbathSchool":{
-        "topic":"Solomon Dedicates the Temple",
-        "study": "2 Chronicles 7:1-7,11",
-        "background": "2 Chronicles 7:1-20",
-        "devotional": "2 Chronicles 6:12, 14-27"
+  "date": "2025-05-10",
+  "sabbathSchool": {
+    "topic": "Solomon Dedicates the Temple",
+    "study": "2 Chronicles 7:1-7,11",
+    "background": "2 Chronicles 7:1-20",
+    "devotional": "2 Chronicles 6:12, 14-27"
+  },
+  "announcements": [
+    {
+      "description": "Mother's Day Service",
+      "startDate": "2025-05-10"
     },
-    "announcements": [
-        {
-            "description": "Mother's Day Service",
-            "startDate": "2025-05-10"
-        },
-        {
-            "description":"Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
-            "startDate":"2025-05-13",
-            "time":"7:00 PM",
-            "additionalInfo":"*Will also be on Zoom*"
-        },
-        {
-            "description":"Eastern Association Meeting",
-            "startDate":"2025-05-17",
-            "endDate":"2025-05-18"
-        },
-        {
-            "description":"Memorial Day Picnic",
-            "startDate":"2025-05-25",
-            "location":"Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-  
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Judges 4:8",
-    "openingSong":196,
-    "responsiveReading":"Psalm 27",
-    "tithesAndOfferingSong":{
-        "hymnNumber": 336,
-        "hymnalCode": "TH41952"
+    {
+      "description": "Visit from Pastor Andrew Samuels, Pastor Canaan Phiri and Pastor John Ryakitimbo",
+      "startDate": "2025-05-13",
+      "time": "7:00 PM",
+      "additionalInfo": "*Will also be on Zoom*"
     },
-    "scriptureReading": "Judges 4:9,14,5:12",
-    "message": {
-        "title":"Active Spiritual Warfare: Women of Valor Arise & Get in the Fight",
-        "speaker": "Evangelist Precious Watt"
+    {
+      "description": "Eastern Association Meeting",
+      "startDate": "2025-05-17",
+      "endDate": "2025-05-18"
     },
-    "closingSong":427
+    {
+      "description": "Memorial Day Picnic",
+      "startDate": "2025-05-25",
+      "location": "Palmer Park, 4022 Heckler Rd, Collegeville, PA 19426"
+    },
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Judges 4:8",
+  "openingSong": 196,
+  "responsiveReading": "Psalm 27",
+  "tithesAndOfferingSong": {
+    "hymnNumber": 336,
+    "hymnalCode": "TH41952"
+  },
+  "scriptureReading": "Judges 4:9,14,5:12",
+  "message": {
+    "title": "Active Spiritual Warfare: Women of Valor Arise & Get in the Fight",
+    "speaker": "Evangelist Precious Watt"
+  },
+  "closingSong": 427
 }

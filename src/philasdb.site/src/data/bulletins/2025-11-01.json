@@ -1,38 +1,38 @@
 {
-    "date":"2025-11-01",
-    "sabbathSchool":{
-        "topic":"Later Experiences of Jeremiah",
-        "study": "Jeremiah 38:7-13",
-        "background": "Jeremiah 20:1-6;37:1-38:28;43:1-7",
-        "devotional": "Romans 13:1-10"
+  "date": "2025-11-01",
+  "sabbathSchool": {
+    "topic": "Later Experiences of Jeremiah",
+    "study": "Jeremiah 38:7-13",
+    "background": "Jeremiah 20:1-6;37:1-38:28;43:1-7",
+    "devotional": "Romans 13:1-10"
+  },
+  "announcements": [
+    {
+      "description": "Wedding of Luzvara & Tyler",
+      "startDate": "2025-11-01",
+      "time": "4:00 PM"
     },
-    "announcements": [
-        {
-            "description": "Wedding of Luzvara & Tyler",
-            "startDate": "2025-11-01",
-            "time": "4:00 PM"
-        },
-        {
-            "description": "Faith SDB Annual Rally",
-            "startDate": "2025-11-08",
-            "time": "5:00 PM",
-            "location": "4230 White Plains Rd, Bronx, NY 10466",
-            "additionalInfo": "Adults: $30, Ages 12-18: $15"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "John 14:23-25",
-    "openingSong":308,
-    "responsiveReading":"Psalm 25:1-10",
-    "tithesAndOfferingSong": 39,
-    "scriptureReading": "Galatians 5:13-14",
-    "youth": true,
-    "message": {
-        "title":"What Love Got to Do with It? Everything!!!",
-        "speaker": "Evangelist Precious Watt"
-    },
-    "closingSong": 286
+    {
+      "description": "Faith SDB Annual Rally",
+      "startDate": "2025-11-08",
+      "time": "5:00 PM",
+      "location": "4230 White Plains Rd, Bronx, NY 10466",
+      "additionalInfo": "Adults: $30, Ages 12-18: $15"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "John 14:23-25",
+  "openingSong": 308,
+  "responsiveReading": "Psalm 25:1-10",
+  "tithesAndOfferingSong": 39,
+  "scriptureReading": "Galatians 5:13-14",
+  "youth": true,
+  "message": {
+    "title": "What Love Got to Do with It? Everything!!!",
+    "speaker": "Evangelist Precious Watt"
+  },
+  "closingSong": 286
 }

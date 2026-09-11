@@ -1,34 +1,33 @@
 {
-    "date":"2025-06-07",
-    "sabbathSchool":{
-        "topic":"Noah Builds an Altar",
-        "study": "Genesis 8:12-22;9:11-13",
-        "background": "Genesis 6:1-9;9:17",
-        "devotional": "Psalm 77:1-2,7-19"
+  "date": "2025-06-07",
+  "sabbathSchool": {
+    "topic": "Noah Builds an Altar",
+    "study": "Genesis 8:12-22;9:11-13",
+    "background": "Genesis 6:1-9;9:17",
+    "devotional": "Psalm 77:1-2,7-19"
+  },
+  "announcements": [
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
     },
-    "announcements": [
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Romans 3:23",
-    "openingSong":187,
-    "responsiveReading":"Psalm 53",
-    "tithesAndOfferingSong": 290,
-    "scriptureReading": "Romans 3:10-26",
-    "message": {
-        "title":"We All Fall Short of God's Glory",
-        "speaker": "Brother Kevin Brey"
-    },
-    "closingSong":183
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Romans 3:23",
+  "openingSong": 187,
+  "responsiveReading": "Psalm 53",
+  "tithesAndOfferingSong": 290,
+  "scriptureReading": "Romans 3:10-26",
+  "message": {
+    "title": "We All Fall Short of God's Glory",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 183
 }

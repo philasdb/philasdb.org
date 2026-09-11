@@ -1,41 +1,41 @@
 {
-    "date":"2025-04-12",
-    "sabbathSchool":{
-        "topic":"Christ the Atoning Sacrifice",
-        "study": "1 John 2:1-6; 4:9-17",
-        "background": "1 John 2:1-6; 4:9-17",
-        "devotional": "Isaiah 59:1-8"
+  "date": "2025-04-12",
+  "sabbathSchool": {
+    "topic": "Christ the Atoning Sacrifice",
+    "study": "1 John 2:1-6; 4:9-17",
+    "background": "1 John 2:1-6; 4:9-17",
+    "devotional": "Isaiah 59:1-8"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2025-04-19"
     },
-    "announcements": [
-        {
-            "description": "Communion Service",
-            "startDate": "2025-04-19"
-        },
-        {
-            "description": "Mother's Day Service",
-            "startDate": "2025-05-10"
-        },
-        {
-            "description": "Father's Day Service",
-            "startDate": "2025-06-14"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*",
-        "*After Lunch every Sabbath will be Vespers*",
-        "*Prayer & Bible Study every Wednesday from 6-7:30pm*",
-        "*Prayer Meeting every first Monday of the month at 7pm on Zoom*"
-    ],
-    "thoughtOfTheDay": "1 Samuel 8:21-22",
-    "openingSong":312,
-    "responsiveReading":"1 Samuel 8:9-22",
-    "tithesAndOfferingSong":85,
-    "scriptureReading": "1 Samuel 8:1-8",
-    "specialMusic": 420,
-    "message": {
-        "title":"Spiritual Warfare",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Mother's Day Service",
+      "startDate": "2025-05-10"
     },
-    "closingSong":366
+    {
+      "description": "Father's Day Service",
+      "startDate": "2025-06-14"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*After Lunch every Sabbath will be Vespers*",
+    "*Prayer & Bible Study every Wednesday from 6-7:30pm*",
+    "*Prayer Meeting every first Monday of the month at 7pm on Zoom*"
+  ],
+  "thoughtOfTheDay": "1 Samuel 8:21-22",
+  "openingSong": 312,
+  "responsiveReading": "1 Samuel 8:9-22",
+  "tithesAndOfferingSong": 85,
+  "scriptureReading": "1 Samuel 8:1-8",
+  "specialMusic": 420,
+  "message": {
+    "title": "Spiritual Warfare",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 366
 }

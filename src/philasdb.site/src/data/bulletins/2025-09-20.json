@@ -1,37 +1,37 @@
 {
-    "date":"2025-09-20",
-    "sabbathSchool":{
-        "topic":"What Hilkiah Found in the Temple",
-        "study": "2 Chronicles 34:15-22;26-27",
-        "background": "2 Chronicles 34:1-33",
-        "devotional": "Romans 7:7-12"
+  "date": "2025-09-20",
+  "sabbathSchool": {
+    "topic": "What Hilkiah Found in the Temple",
+    "study": "2 Chronicles 34:15-22;26-27",
+    "background": "2 Chronicles 34:1-33",
+    "devotional": "Romans 7:7-12"
+  },
+  "announcements": [
+    {
+      "description": "Women's Retreat",
+      "startDate": "2025-09-21",
+      "time": "10:30AM-3PM",
+      "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
     },
-    "announcements": [
-        {
-            "description": "Women's Retreat",
-            "startDate": "2025-09-21",
-            "time":"10:30AM-3PM",
-            "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "worshipLeader":"Kemuel Bennett",
-    "thoughtOfTheDay": "Acts 2:3-4",
-    "openingSong":13,
-    "responsiveReading":"Genesis 11:4-9",
-    "tithesAndOfferingSong": 80,
-    "scriptureReading": "Acts 2:1-21",
-    "youth": true,
-    "message": {
-        "title":"Divided Tongues Unite to Speak One Message",
-        "speaker": "Brother Kevin Brey"
-    },
-    "closingSong": 161
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipLeader": "Kemuel Bennett",
+  "thoughtOfTheDay": "Acts 2:3-4",
+  "openingSong": 13,
+  "responsiveReading": "Genesis 11:4-9",
+  "tithesAndOfferingSong": 80,
+  "scriptureReading": "Acts 2:1-21",
+  "youth": true,
+  "message": {
+    "title": "Divided Tongues Unite to Speak One Message",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 161
 }

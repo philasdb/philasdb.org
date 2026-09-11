@@ -1,45 +1,43 @@
 {
-    "date":"2025-06-28",
-    "sabbathSchool":{
-        "topic":"Jacob Sets Up a Sacred Pillar",
-        "study": "Genesis 28:10-22",
-        "background": "Genesis 28:1-22;33:17-20;35:1-7",
-        "devotional": "John 15:1-8"
+  "date": "2025-06-28",
+  "sabbathSchool": {
+    "topic": "Jacob Sets Up a Sacred Pillar",
+    "study": "Genesis 28:10-22",
+    "background": "Genesis 28:1-22;33:17-20;35:1-7",
+    "devotional": "John 15:1-8"
+  },
+  "announcements": [
+    {
+      "description": "Graduation Service",
+      "startDate": "2025-06-28"
     },
-    "announcements": [
-        {
-            "description": "Graduation Service",
-            "startDate": "2025-06-28"
-        }
-        ,
-        {
-            "description": "General Conference",
-            "startDate": "2025-07-22",
-            "endDate": "2025-07-27",
-            "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*Please pray for Brother Gayle's Family*",
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Isaiah 43:2",
-    "openingSong":230,
-    "responsiveReading":"Psalm 5",
-    "tithesAndOfferingSong": 218,
-    "scriptureReading": "Acts 4:13-22",
-    "message": {
-        "title":"Graduating for God's Purpose",
-        "speaker": "Deacon Edson Barrett"
+    {
+      "description": "General Conference",
+      "startDate": "2025-07-22",
+      "endDate": "2025-07-27",
+      "location": "Carthage College 2001 Alford Park Drive\nKenosha, WI 53140"
     },
-    "closingSong":418
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
+    },
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*Please pray for Brother Gayle's Family*",
+    "*If you are a guest, please sign the guest book in the front*"
+  ],
+  "thoughtOfTheDay": "Isaiah 43:2",
+  "openingSong": 230,
+  "responsiveReading": "Psalm 5",
+  "tithesAndOfferingSong": 218,
+  "scriptureReading": "Acts 4:13-22",
+  "message": {
+    "title": "Graduating for God's Purpose",
+    "speaker": "Deacon Edson Barrett"
+  },
+  "closingSong": 418
 }

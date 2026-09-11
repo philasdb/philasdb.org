@@ -1,39 +1,39 @@
 {
-    "date":"2025-08-23",
-    "sabbathSchool":{
-        "topic":"Sacrifices of Praise and Good Works",
-        "study": "Hebrews 13:9-21",
-        "background": "Hebrews 12:1-21",
-        "devotional": "Psalm 146"
+  "date": "2025-08-23",
+  "sabbathSchool": {
+    "topic": "Sacrifices of Praise and Good Works",
+    "study": "Hebrews 13:9-21",
+    "background": "Hebrews 12:1-21",
+    "devotional": "Psalm 146"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "announcements": [
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        },
-        {
-            "description": "Women's Retreat",
-            "startDate": "2025-09-21",
-            "time":"10:30AM-3PM",
-            "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 67:1",
-    "openingSong":39,
-    "responsiveReading":"Isaiah 65:18-25",
-    "tithesAndOfferingSong": 16,
-    "scriptureReading": "Acts 17:22-33",
-    "message": {
-        "title":"The Nearness of God",
-        "speaker": "Pastor Selvin Findlater"
+    {
+      "description": "Women's Retreat",
+      "startDate": "2025-09-21",
+      "time": "10:30AM-3PM",
+      "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
     },
-    "closingSong": 2
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 67:1",
+  "openingSong": 39,
+  "responsiveReading": "Isaiah 65:18-25",
+  "tithesAndOfferingSong": 16,
+  "scriptureReading": "Acts 17:22-33",
+  "message": {
+    "title": "The Nearness of God",
+    "speaker": "Pastor Selvin Findlater"
+  },
+  "closingSong": 2
 }

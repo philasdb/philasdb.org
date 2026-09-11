@@ -1,39 +1,39 @@
 {
-    "date":"2025-09-13",
-    "sabbathSchool":{
-        "topic":"Hezekiah Leads the People Back to God",
-        "study": "2 Chronicles 30:1-9,26-27",
-        "background": "2 Chronicles 30:1-27",
-        "devotional": "Psalm 1"
+  "date": "2025-09-13",
+  "sabbathSchool": {
+    "topic": "Hezekiah Leads the People Back to God",
+    "study": "2 Chronicles 30:1-9,26-27",
+    "background": "2 Chronicles 30:1-27",
+    "devotional": "Psalm 1"
+  },
+  "announcements": [
+    {
+      "description": "Women's Retreat",
+      "startDate": "2025-09-21",
+      "time": "10:30AM-3PM",
+      "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
     },
-    "announcements": [
-        {
-            "description": "Women's Retreat",
-            "startDate": "2025-09-21",
-            "time":"10:30AM-3PM",
-            "location": "Jersey Oaks Camp, 20 Batter Cake Lane, Salem, NJ"
-        },
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 18:30",
-    "openingSong":90,
-    "responsiveReading":"Matthew 19:16-24",
-    "tithesAndOfferingSong": 100,
-    "scriptureReading": "Matthew 13:44-46",
-    "youth": true,
-    "message": {
-        "title":"The Truth about Heaven",
-        "speaker": "Sister Jasmin Findlater"
-    },
-    "closingSong": {
-        "hymnalCode": "TH41952",
-        "hymnNumber": 81
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
     }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 18:30",
+  "openingSong": 90,
+  "responsiveReading": "Matthew 19:16-24",
+  "tithesAndOfferingSong": 100,
+  "scriptureReading": "Matthew 13:44-46",
+  "youth": true,
+  "message": {
+    "title": "The Truth about Heaven",
+    "speaker": "Sister Jasmin Findlater"
+  },
+  "closingSong": {
+    "hymnalCode": "TH41952",
+    "hymnNumber": 81
+  }
 }

@@ -1,33 +1,33 @@
 {
-    "date":"2025-10-25",
-    "sabbathSchool":{
-        "topic":"God's Law in the Heart",
-        "study": "Jeremiah 31:29-34;John 1:17",
-        "background": "Jeremiah 31:1-40;John 1:17;Hebrews 8:7-13",
-        "devotional": "Psalm 103:17-22"
-    },
-    "announcements": [
-        {
-            "description": "Faith SDB Annual Rally",
-            "startDate": "2025-11-08",
-            "time": "5:00 PM",
-            "location": "4230 White Plains Rd, Bronx, NY 10466",
-            "additionalInfo": "Adults: $30, Ages 12-18: $15"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Acts 2:5;Acts 2:9",
-    "openingSong":134,
-    "responsiveReading":"Esther 3:8-10;7:10-8:8",
-    "tithesAndOfferingSong": 17,
-    "scriptureReading": "Acts 2:1-21",
-    "youth": true,
-    "message": {
-        "title":"The Easternmost Audience for Peter's Sermon on Pentecost",
-        "speaker": "Brother Kevin Brey"
-    },
-    "closingSong": 165
+  "date": "2025-10-25",
+  "sabbathSchool": {
+    "topic": "God's Law in the Heart",
+    "study": "Jeremiah 31:29-34;John 1:17",
+    "background": "Jeremiah 31:1-40;John 1:17;Hebrews 8:7-13",
+    "devotional": "Psalm 103:17-22"
+  },
+  "announcements": [
+    {
+      "description": "Faith SDB Annual Rally",
+      "startDate": "2025-11-08",
+      "time": "5:00 PM",
+      "location": "4230 White Plains Rd, Bronx, NY 10466",
+      "additionalInfo": "Adults: $30, Ages 12-18: $15"
+    }
+  ],
+  "notes": [
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Acts 2:5;Acts 2:9",
+  "openingSong": 134,
+  "responsiveReading": "Esther 3:8-10;7:10-8:8",
+  "tithesAndOfferingSong": 17,
+  "scriptureReading": "Acts 2:1-21",
+  "youth": true,
+  "message": {
+    "title": "The Easternmost Audience for Peter's Sermon on Pentecost",
+    "speaker": "Brother Kevin Brey"
+  },
+  "closingSong": 165
 }

@@ -1,50 +1,50 @@
 {
-    "date":"2025-11-22",
-    "sabbathSchool":{
-        "topic":"Ezekiel Teaches Personal Responsibility",
-        "study": "Ezekiel 33:7-16",
-        "background": "Ezekiel 18:1-32;33:1-20",
-        "devotional": "Jeremiah 17:5-10"
+  "date": "2025-11-22",
+  "sabbathSchool": {
+    "topic": "Ezekiel Teaches Personal Responsibility",
+    "study": "Ezekiel 33:7-16",
+    "background": "Ezekiel 18:1-32;33:1-20",
+    "devotional": "Jeremiah 17:5-10"
+  },
+  "announcements": [
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-11-29"
     },
-    "announcements": [
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-11-29"
-        },
-        {
-            "description": "Children's Christmas Banquet",
-            "startDate": "2025-12-20",
-            "time": "4 PM",
-            "additionalInfo": "Tickets are $25."
-        },
-        {
-            "description": "December Business Meeting",
-            "startDate": "2025-12-21",
-            "time": "6:30 PM",
-            "location": "Zoom"
-        },
-        {
-            "description": "January Business Meeting",
-            "startDate": "2026-01-18",
-            "time": "6:30 PM",
-            "location": "Zoom"
-        }
-    ],
-    "notes": [
-        "We are having a special collection for Jamaican Hurricane Relief",
-        "*If you are a guest, please sign the guest book in the front*",
-        "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
-    ],
-    "thoughtOfTheDay": "Psalm 107:15",
-    "openingSong":540,
-    "responsiveReading":"Psalm 107:1-24",
-    "tithesAndOfferingSong": 544,
-    "scriptureReading": "Matthew 15:32-39",
-    "youth": true,
-    "message": {
-        "title":"Time to Give Thanks",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Children's Christmas Banquet",
+      "startDate": "2025-12-20",
+      "time": "4 PM",
+      "additionalInfo": "Tickets are $25."
     },
-    "itemAfterMessage": "Receiving Evangelist Precious Watt as Member\nCharge: Deacon Edson Barrett, Charge to Church: Bro. Kevin Brey",
-    "closingSong": 545
+    {
+      "description": "December Business Meeting",
+      "startDate": "2025-12-21",
+      "time": "6:30 PM",
+      "location": "Zoom"
+    },
+    {
+      "description": "January Business Meeting",
+      "startDate": "2026-01-18",
+      "time": "6:30 PM",
+      "location": "Zoom"
+    }
+  ],
+  "notes": [
+    "We are having a special collection for Jamaican Hurricane Relief",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "thoughtOfTheDay": "Psalm 107:15",
+  "openingSong": 540,
+  "responsiveReading": "Psalm 107:1-24",
+  "tithesAndOfferingSong": 544,
+  "scriptureReading": "Matthew 15:32-39",
+  "youth": true,
+  "message": {
+    "title": "Time to Give Thanks",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "itemAfterMessage": "Receiving Evangelist Precious Watt as Member\nCharge: Deacon Edson Barrett, Charge to Church: Bro. Kevin Brey",
+  "closingSong": 545
 }

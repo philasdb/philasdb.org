@@ -1,37 +1,34 @@
 {
-    "date":"2025-08-16",
-    "sabbathSchool":{
-        "topic":"Jews and Gentiles Form One Temple",
-        "study": "Ephesians 2:11-22",
-        "background": "Ephesians 2:11-22",
-        "devotional": "Romans 9:14-24"
+  "date": "2025-08-16",
+  "sabbathSchool": {
+    "topic": "Jews and Gentiles Form One Temple",
+    "study": "Ephesians 2:11-22",
+    "background": "Ephesians 2:11-22",
+    "devotional": "Romans 9:14-24"
+  },
+  "announcements": [
+    {
+      "description": "Business Meeting",
+      "startDate": "2025-08-17"
     },
-    "announcements": [
-        {
-            "description": "Business Meeting",
-            "startDate": "2025-08-17"
-        },
-        {
-            "description": "Youth Sabbath",
-            "startDate": "2025-08-30"
-        }
-        ,
-        {
-            "description": "Church Fundraiser Concert",
-            "startDate": "2025-10-04"
-        }
-    ],
-    "notes": [
-        "*If you are a guest, please sign the guest book in the front*"
-    ],
-    "thoughtOfTheDay": "Psalm 24:8-9",
-    "openingSong":499,
-    "responsiveReading":"Psalm 24",
-    "tithesAndOfferingSong": 45,
-    "scriptureReading": "Genesis 1:26-27",
-    "message": {
-        "title":"Best of God's Creation",
-        "speaker": "Pastor Kenroy Cruickshank"
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2025-08-30"
     },
-    "closingSong": 46
+    {
+      "description": "Church Fundraiser Concert",
+      "startDate": "2025-10-04"
+    }
+  ],
+  "notes": ["*If you are a guest, please sign the guest book in the front*"],
+  "thoughtOfTheDay": "Psalm 24:8-9",
+  "openingSong": 499,
+  "responsiveReading": "Psalm 24",
+  "tithesAndOfferingSong": 45,
+  "scriptureReading": "Genesis 1:26-27",
+  "message": {
+    "title": "Best of God's Creation",
+    "speaker": "Pastor Kenroy Cruickshank"
+  },
+  "closingSong": 46
 }
