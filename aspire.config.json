@@ -1,12 +1,12 @@
 {
   "appHost": {
-    "path": "apphost.ts",
+    "path": "apphost.mts",
     "language": "typescript/nodejs"
   },
   "sdk": {
-    "version": "13.3.0-preview.*"
+    "version": "13.5.0"
   },
-  "channel": "daily",
+  "channel": "stable",
   "profiles": {
     "https": {
       "applicationUrl": "https://localhost:17041;http://localhost:15200",
@@ -17,6 +17,6 @@
     }
   },
   "packages": {
-    "Aspire.Hosting.JavaScript": "13.3.0-preview.*"
+    "Aspire.Hosting.JavaScript": "13.5.0"
   }
 }

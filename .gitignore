@@ -90,3 +90,4 @@ coverage*.json
 coverage*.xml
 .fake
 .playwright-cli/
+.aspire/
