@@ -40,12 +40,31 @@ export type WorshipItem =
   | { type: "worshipLeader"; name: string }
   | { type: "thoughtOfTheDay"; reference: string; presentedBy?: string }
   | { type: "song"; label: string; song: number | Song; presentedBy?: string }
-  | { type: "text"; label: string; content?: string; italic?: boolean; small?: boolean; presentedBy?: string }
-  | { type: "scripture"; label: string; reference: string; showPassage?: boolean; presentedBy?: string }
+  | {
+      type: "text";
+      label: string;
+      content?: string;
+      italic?: boolean;
+      small?: boolean;
+      presentedBy?: string;
+    }
+  | {
+      type: "scripture";
+      label: string;
+      reference: string;
+      showPassage?: boolean;
+      presentedBy?: string;
+    }
   | { type: "message"; message: Message }
   | { type: "communion"; communion: Communion }
   | { type: "custom"; label: string; content?: string; song?: number | Song; presentedBy?: string }
-  | { type: "tithesAndOffering"; song: number | Song; scriptureReading?: string; specialMusic?: number | Song; presentedBy?: string }
+  | {
+      type: "tithesAndOffering";
+      song: number | Song;
+      scriptureReading?: string;
+      specialMusic?: number | Song;
+      presentedBy?: string;
+    }
   | { type: "youth" };
 
 // Legacy bulletin format (v1)
