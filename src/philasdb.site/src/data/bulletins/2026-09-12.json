@@ -72,12 +72,7 @@
     {
       "type": "song",
       "label": "Special Music",
-      "song": {
-        "title": "I Need Thee Every Hour",
-        "hymnNumber": "431",
-        "hymnal": "Hymns of Faith"
-      },
-      "presentedBy": "(Group sings a cappella)"
+      "song": 431
     },
     {
       "type": "message",
