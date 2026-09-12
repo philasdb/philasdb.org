@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "date": "2026-09-12",
+  "sabbathSchool": {
+    "topic": "Remember God's Actions",
+    "study": "Joshua 4:14-24",
+    "background": "Joshua 4",
+    "devotional": "Luke 8:35-39"
+  },
+  "announcements": [
+    {
+      "description": "Baptism Service",
+      "startDate": "2026-09-12",
+      "additionalInfo": "Candidates: Brother Royston Cruickshank M.D., Sister Rebecca Newman"
+    },
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Romans 6:4"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": {
+        "title": "Just As I Am, Without One Plea",
+        "hymnNumber": "334",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/1NsofVwhABQ?is=RHQIPTfwEFe0sXft"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Exodus 14:13-31"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "I Surrender All",
+        "hymnNumber": "378",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/lg3tteGKRq8?is=53kM7M4nPkuOntS_"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "1 Corinthians 10:1-2, 5-12"
+    },
+    {
+      "type": "song",
+      "label": "Special Music",
+      "song": {
+        "title": "I Need Thee Every Hour",
+        "hymnNumber": "431",
+        "hymnal": "Hymns of Faith"
+      },
+      "presentedBy": "(Group sings a cappella)"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "When You Come Up Out of the Water: From the Water to the Walk",
+        "speaker": "Sister Georgiana Woody"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Baptism Service",
+      "presentedBy": "Rev. Kenroy Cruickshank officiating"
+    },
+    {
+      "type": "text",
+      "label": "Candidates for Baptism:"
+    },
+    {
+      "type": "text",
+      "label": "Brother Royston Cruickshank M.D."
+    },
+    {
+      "type": "text",
+      "label": "Sister Rebecca Newman"
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": {
+        "title": "It Is Well with My Soul",
+        "hymnNumber": "223",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/NwXAhcVQZps?is=5HHUwzLFIiOf1aFF"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
