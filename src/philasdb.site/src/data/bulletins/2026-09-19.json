@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "date": "2026-09-19",
+  "sabbathSchool": {
+    "topic": "God's Complicated Promise",
+    "study": "Joshua 11:6-9,16-23",
+    "background": "Joshua 6;8:26;10:28-43;11:1-23;Deuteronomy 7:1-26",
+    "devotional": "Psalm 108"
+  },
+  "announcements": [
+    {
+      "description": "Fundraiser Concert",
+      "startDate": "2026-09-26"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Isaiah 53:4"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": {
+        "title": "'Tis Midnight; and on Olive's Brow",
+        "hymnNumber": "143",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/psDEaW6x2cE?is=6O63kW8Agsia7XI3"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Isaiah 53:4-12"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "In the Hour of Trial",
+        "hymnNumber": "425",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/0JgfY_rnlLQ?is=_vw7UcTTsolo_04t"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Mark 14:32-42"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Surely Jesus Has Borne Our Griefs",
+        "speaker": "Brother Kevin Brey"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": {
+        "title": "Jesus, Thy Blood and Righteousness",
+        "hymnNumber": "25",
+        "hymnal": "Hymns of Faith",
+        "url": "https://youtu.be/g_TLuD5FNmU?is=zFOvRKL1Y2VLUG_P"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
