@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "date": "2026-10-03",
+  "sabbathSchool": {
+    "topic": "God's Compassion for Rahab",
+    "study": "Joshua 24:18-27",
+    "background": "Joshua 23-24",
+    "devotional": "Jeremiah 31:27-34"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2026-10-24"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "2 Corinthians 9:8"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 38
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "2 Samuel 9:1-13"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "Were it not for Grace",
+        "artist": "Larnelle Harris"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "2 Samuel 4:4"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Who Drop You",
+        "speaker": "Pastor McFarlane"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 205
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
