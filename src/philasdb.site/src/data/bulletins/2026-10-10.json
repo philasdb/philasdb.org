@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "date": "2026-10-10",
+  "sabbathSchool": {
+    "topic": "God Works Despite Evil",
+    "study": "Judges 2:6-15",
+    "background": "Judges 2",
+    "devotional": "1 Corinthians 10:1-14"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2026-10-24"
+    },
+    {
+      "description": "Faith SDB Church Annual Rally",
+      "time": "5pm",
+      "startDate": "2026-10-24",
+      "location": "4230 White Plains Rd, Bronx, NY 10466"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "John 3:16a"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": {
+        "title": "To God Be the Glory",
+        "hymnal": "Hymns of Faith",
+        "hymnNumber": "64",
+        "url": "https://youtu.be/3vbGFupxwu0?is=MQK9SH5eb4EzoAa8"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Genesis 22:1-16"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": {
+        "title": "And Can It Be That I Should Gain",
+        "hymnal": "Hymns of Faith",
+        "hymnNumber": "57",
+        "url": "https://youtu.be/sQeIGbKqiw8?is=8pK0skzKZjyGZdWz"
+      }
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "John 3:12-21"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "How Much Does God, Our Father, Love This World?",
+        "speaker": "Brother Kevin Brey"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": {
+        "title": "The Love of God",
+        "hymnal": "Hymns of Faith",
+        "hymnNumber": "286",
+        "url": "https://youtu.be/NafJoD8Mt94?is=X3cPj9A8A5aRacOS"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
