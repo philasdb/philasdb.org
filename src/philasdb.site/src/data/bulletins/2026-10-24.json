@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "date": "2026-10-24",
+  "sabbathSchool": {
+    "topic": "God's Works Are Not Forgotten",
+    "study": "Judges 17:1-6;18:18-19,27",
+    "background": "Judges 17;18",
+    "devotional": "Deuteronomy 6:10-16"
+  },
+  "announcements": [
+    {
+      "description": "Communion Service",
+      "startDate": "2026-10-24"
+    },
+    {
+      "description": "Youth Sabbath",
+      "startDate": "2026-10-31"
+    },
+    {
+      "description": "Faith SDB Church Annual Rally",
+      "time": "5pm",
+      "startDate": "2026-10-31",
+      "location": "4230 White Plains Rd, Bronx, NY 10466"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Luke 22:15-16"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 388
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Jeremiah 31:31-34"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 169
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "1 Corinthians 11:17-31"
+    },
+    {
+      "type": "text",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Remember Me:Living in the Light of His Sacrifice",
+        "speaker": "Sis. Georgiana Woody"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Receiving New Members"
+    },
+    {
+      "type": "communion",
+      "communion": {
+        "description": "Lead by Pastor Kenroy Cruickshank",
+        "songs": [113, 160, 77]
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 166
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
