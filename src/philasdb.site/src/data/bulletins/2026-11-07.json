@@ -7,7 +7,18 @@
     "background": "1 Samuel 3:1-4:1",
     "devotional": "1 Thessalonians 5:11-22"
   },
-  "announcements": [],
+  "announcements": [
+    {
+      "description": "Agapes SDB Church of Christ 25th Anniversary Celebration",
+      "startDate": "2026-11-07",
+      "location": "Agape SDB Church\n110-46 Farmers Blvd, St. Albans, NY 11412"
+    },
+    {
+      "description": "Ordination Service",
+      "startDate": "2026-11-21",
+      "location": "Marlboro SDB Church\n607 Quinton-Marlboro Rd, Bridgeton, NJ 08302"
+    }
+  ],
   "notes": [
     "*Break after sabbath school is 10 minutes*",
     "*We are having a special collection for Jamaican Hurricane Relief*",
@@ -54,7 +65,8 @@
       "label": "Special Music",
       "song": {
         "hymnNumber": 301,
-        "hymnal": "TH41952"
+        "title": "There's a Great Day Coming",
+        "hymnal": "Tabernacle Hymns: Number Four"
       }
     },
     {
