@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "date": "2026-11-07",
+  "sabbathSchool": {
+    "topic": "The Lord Calls Samuel",
+    "study": "1 Samuel 3:8-20",
+    "background": "1 Samuel 3:1-4:1",
+    "devotional": "1 Thessalonians 5:11-22"
+  },
+  "announcements": [],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 27:5"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 217
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 27:1-14"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 421
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "1 Corinthians 15:19-22"
+    },
+    {
+      "type": "song",
+      "label": "Special Music",
+      "song": {
+        "hymnNumber": 301,
+        "hymnal": "TH41952"
+      }
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "The Savior of the World",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 469
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
