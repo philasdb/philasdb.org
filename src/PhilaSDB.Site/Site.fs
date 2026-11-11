@@ -47,6 +47,9 @@ let private textPage (contentType: string) (text: string) =
 
 type Site =
     { Pages: IReadOnlyDictionary<string, RenderedPage>
+      /// Text files from wwwroot (CSS, JavaScript, the favicon), compressed once like the pages instead of on
+      /// every request at the fastest level
+      Static: IReadOnlyDictionary<string, RenderedPage>
       NotFound: RenderedPage
       BulletinCount: int
       VerseCount: int }
@@ -107,7 +110,20 @@ let build (contentRoot: string) (biblePath: string) (webRoot: string) =
     pages["/robots.txt"] <-
         textPage "text/plain; charset=utf-8" $"User-agent: *\nAllow: /\n\nSitemap: {Layout.siteUrl}/sitemap-index.xml\n"
 
+    let staticTypes =
+        dict [ ".css", "text/css; charset=utf-8"; ".js", "text/javascript; charset=utf-8"; ".ico", "image/x-icon" ]
+
+    let staticFiles = Dictionary<string, RenderedPage>(StringComparer.Ordinal)
+
+    for file in Directory.EnumerateFiles(webRoot, "*", SearchOption.AllDirectories) do
+        match staticTypes.TryGetValue(Path.GetExtension file) with
+        | true, contentType ->
+            let url = "/" + Path.GetRelativePath(webRoot, file).Replace('\\', '/')
+            staticFiles[url] <- rendered contentType (File.ReadAllBytes file)
+        | false, _ -> ()
+
     { Pages = pages
+      Static = staticFiles
       NotFound = htmlPage (Pages.notFound assets)
       BulletinCount = bulletins.Length
       VerseCount = bible.VerseCount }

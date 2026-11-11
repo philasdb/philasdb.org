@@ -167,16 +167,15 @@ let render (assets: Fingerprints) (page: Page) (content: HtmlElement) =
             link (rel = "canonical", href = canonical)
             link (rel = "icon", type' = "image/x-icon", href = assets.Url "/favicon.ico")
 
-            link (
-                rel = "stylesheet",
-                href = "https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css",
-                integrity = "sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU",
-                crossorigin = "anonymous"
-            )
+            // Pico CSS 2.1.1, served from this site rather than jsDelivr: no extra DNS lookup and TLS connection
+            // before the first paint, and one less third party (see VENDORED.md)
+            link (rel = "stylesheet", href = assets.Url "/css/pico.min.css")
 
             title () { pageTitle }
-            link (rel = "stylesheet", href = assets.Url "/css/global.css")
-            style () { raw "html, body { margin: 0; width: 100%; height: 100%; }" }
+            style () {
+                raw (assets.Text "/css/global.css")
+                raw "html, body { margin: 0; width: 100%; height: 100%; }"
+            }
 
             for element in page.Head do
                 element
@@ -190,6 +189,21 @@ let render (assets: Fingerprints) (page: Page) (content: HtmlElement) =
             for element in page.Scripts do
                 element
         }
+    }
+
+/// A photo in AVIF and WebP at the widths scripts/images.py makes (wwwroot/images/sized/<name>-<width>.<ext>),
+/// so browsers download the smallest one that fits. `sizes` says how wide it's shown; the <img> keeps the
+/// original as the fallback and carries the alt text, dimensions and loading hints.
+let responsive (assets: Fingerprints) (name: string) (widths: int list) (sizes: string) (image: HtmlElement) =
+    let srcset (ext: string) =
+        widths
+        |> List.map (fun w -> assets.Url("/images/sized/" + name + "-" + string w + "." + ext) + " " + string w + "w")
+        |> String.concat ", "
+
+    picture () {
+        source (type' = "image/avif", srcset = srcset "avif", sizes = sizes)
+        source (type' = "image/webp", srcset = srcset "webp", sizes = sizes)
+        image
     }
 
 /// The breadcrumb trail at the top of most pages: Home › … › current page

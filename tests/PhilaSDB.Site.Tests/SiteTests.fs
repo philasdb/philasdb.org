@@ -56,7 +56,22 @@ let ``songs given by hymnal code and number are looked up`` () =
 
 [<Fact>]
 let ``static files are linked with a content hash`` () =
-    Assert.Matches("href=\"/css/global.css\\?v=[0-9a-f]{12}\"", html "/")
+    Assert.Matches("src=\"/js/livestream-link.js\\?v=[0-9a-f]{12}\"", html "/")
+
+[<Fact>]
+let ``small stylesheets are inlined instead of blocking rendering`` () =
+    Assert.DoesNotContain("/css/global.css", html "/")
+    Assert.Contains(".navbar-full", html "/")
+    Assert.DoesNotContain("/css/bulletin.css", html "/bulletin/2026-11-07")
+    Assert.Contains(".left-column", html "/bulletin/2026-11-07")
+
+[<Fact>]
+let ``photos come in AVIF and WebP sizes`` () =
+    let home = html "/"
+    Assert.Matches("<source type=\"image/avif\" srcset=\"/images/sized/cover_image-480.avif\\?v=[0-9a-f]{12} 480w, ", home)
+    Assert.Contains("sizes=\"(max-width: 925px) 100vw, 925px\"", home)
+    // The original stays as the fallback and keeps its dimensions, so nothing shifts while it loads
+    Assert.Matches("<img src=\"/images/cover_image.webp\\?v=[0-9a-f]{12}\" alt=\"Philadelphia Seventh Day Baptist Church\" width=\"925\" height=\"520\"", home)
 
 [<Fact>]
 let ``the sitemap lists the pages`` () =
@@ -77,3 +92,11 @@ let ``export writes a static copy of the site`` () =
     finally
         if Directory.Exists outDir then
             Directory.Delete(outDir, true)
+
+[<Fact>]
+let ``CSS and JavaScript are served compressed at the highest level`` () =
+    let pico = site.Value.Static["/css/pico.min.css"]
+    Assert.Equal("text/css; charset=utf-8", pico.ContentType)
+    // 80 KB of CSS; the fastest Brotli level gave 18.5 KB
+    Assert.True(pico.Brotli.Value.Length < 12_500, $"pico.min.css is {pico.Brotli.Value.Length} bytes with Brotli")
+    Assert.True(site.Value.Static.ContainsKey "/js/livestream-link.js")

@@ -24,3 +24,11 @@ type Fingerprints(webRoot: string) =
         match hashes.TryGetValue path with
         | true, hash -> $"{path}?v={hash}"
         | false, _ -> failwith $"No static file {path} in {webRoot}"
+
+    /// A text file's contents, for small stylesheets that are inlined into pages instead of costing a
+    /// render-blocking request
+    member _.Text(path: string) =
+        if not (hashes.ContainsKey path) then
+            failwith $"No static file {path} in {webRoot}"
+
+        File.ReadAllText(Path.Combine(webRoot, path.TrimStart '/'))

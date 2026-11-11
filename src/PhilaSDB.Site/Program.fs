@@ -26,14 +26,13 @@ let private chooseEncoding (acceptEncoding: string) (page: RenderedPage) =
     elif accepts "gzip" then struct ("gzip", page.Gzip.Value)
     else struct (null, page.Identity)
 
-let private writePage (ctx: HttpContext) (status: int) (page: RenderedPage) : Task =
+let private writeResponse (ctx: HttpContext) (status: int) (cacheControl: string) (page: RenderedPage) : Task =
     let headers = ctx.Response.Headers
     ctx.Response.StatusCode <- status
     ctx.Response.ContentType <- page.ContentType
     headers.Vary <- "Accept-Encoding"
     headers.ETag <- page.ETag
-    // Revalidate every time: a 304 is a few bytes, and a new bulletin shows up as soon as it's deployed
-    headers.CacheControl <- "no-cache"
+    headers.CacheControl <- cacheControl
 
     let ifNoneMatch = ctx.Request.Headers.IfNoneMatch.ToString()
 
@@ -53,6 +52,10 @@ let private writePage (ctx: HttpContext) (status: int) (page: RenderedPage) : Ta
         else
             ctx.Response.Body.WriteAsync(body, 0, body.Length)
 
+// Revalidate pages every time: a 304 is a few bytes, and a new bulletin shows up as soon as it's deployed
+let private writePage (ctx: HttpContext) (status: int) (page: RenderedPage) =
+    writeResponse ctx status "no-cache" page
+
 /// "/about/" and "/about" are the same page, as they were on GitHub Pages
 let private normalize (path: string) =
     if path.Length > 1 && path.EndsWith '/' then path.TrimEnd '/' else path
@@ -64,6 +67,19 @@ let private serve (app: WebApplication) (site: Site) =
         headers.XContentTypeOptions <- "nosniff"
         headers["Referrer-Policy"] <- "strict-origin-when-cross-origin"
         next.Invoke ctx)
+    |> ignore
+
+    // CSS, JavaScript and the favicon from memory, compressed once at the highest level. Pages link to them with
+    // ?v=<content hash>, so those URLs never change content and can be cached for a year.
+    app.Use(fun (ctx: HttpContext) (next: RequestDelegate) ->
+        match site.Static.TryGetValue ctx.Request.Path.Value with
+        | true, file when HttpMethods.IsGet ctx.Request.Method || HttpMethods.IsHead ctx.Request.Method ->
+            let cacheControl =
+                if ctx.Request.Query.ContainsKey "v" then "public, max-age=31536000, immutable"
+                else "public, max-age=3600"
+
+            writeResponse ctx StatusCodes.Status200OK cacheControl file
+        | _ -> next.Invoke ctx)
     |> ignore
 
     app.UseResponseCompression() |> ignore
@@ -109,7 +125,8 @@ let main args =
         // Fly.io terminates TLS, so Kestrel sees plain HTTP in production; this keeps local HTTPS runs the same
         options.EnableForHttps <- true
         options.Providers.Add<BrotliCompressionProvider>()
-        options.Providers.Add<GzipCompressionProvider>())
+        options.Providers.Add<GzipCompressionProvider>()
+        options.MimeTypes <- Seq.append ResponseCompressionDefaults.MimeTypes [ "image/x-icon"; "image/svg+xml" ])
     |> ignore
 
     let app = builder.Build()

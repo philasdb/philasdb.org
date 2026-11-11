@@ -306,7 +306,7 @@ let standalone (ctx: Context) (bulletin: Bulletin) =
             title () { $"Philadelphia Seventh Day Baptist Church | Bulletin | {longDate bulletin.Date}" }
             link (rel = "canonical", href = canonicalUrl $"/bulletin/{bulletin.Slug}")
             link (rel = "icon", type' = "image/x-icon", href = ctx.Assets.Url "/favicon.ico")
-            link (rel = "stylesheet", href = ctx.Assets.Url "/css/bulletin.css")
+            style () { raw (ctx.Assets.Text "/css/bulletin.css") }
         }
 
         body () { bulletinBody ctx bulletin }
@@ -314,7 +314,7 @@ let standalone (ctx: Context) (bulletin: Bulletin) =
 
 /// /bulletin: the latest bulletin inside the site's layout
 let latest (ctx: Context) (bulletin: Bulletin option) =
-    let bulletinCss = link (rel = "stylesheet", href = ctx.Assets.Url "/css/bulletin.css")
+    let bulletinCss = style () { raw (ctx.Assets.Text "/css/bulletin.css") }
 
     match bulletin with
     | Some bulletin ->

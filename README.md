@@ -42,7 +42,14 @@ file. `dotnet test` checks every bulletin, so CI catches it before it's deployed
 
 At startup the app reads the bulletins, hymnals and KJV text and renders every page once (about 150 ms with Native
 AOT). Requests are a dictionary lookup: pages are served from memory with an `ETag`, compressed with Brotli or gzip
-on first use. Static files are linked with a content hash (`/css/global.css?v=…`) and cached for a year.
+on first use. CSS and JavaScript are served the same way, linked with a content hash (`/css/pico.min.css?v=…`)
+and cached for a year; the small site stylesheets are inlined into the pages. Pico CSS and hls.js are vendored
+(see `src/PhilaSDB.Site/VENDORED.md`).
+
+Photos are shown with `<picture>` in AVIF and WebP at several widths. After adding or replacing a photo, run
+`python3 scripts/images.py` (needs [Pillow](https://pypi.org/project/pillow/)) and commit the files it makes; the
+widths each photo needs are listed at the top of the script. [docs/lighthouse.md](docs/lighthouse.md) compares the
+site with the Astro version in Lighthouse.
 
 | File | Role |
 | :-- | :-- |
@@ -72,6 +79,7 @@ Directory.Packages.props    One version of each NuGet package for the whole repo
 philasdb.slnx               Solution with every project
 apphost.cs                  Aspire AppHost: runs all the apps together locally
 data/                       Shared data (the KJV OSIS text)
+scripts/images.py           Makes the AVIF/WebP sizes of the site's photos
 src/
   PhilaSDB.Scripture/       Shared library: KJV text and scripture references
   PhilaSDB.ServiceDefaults/ Shared Aspire service defaults (OpenTelemetry, health checks)

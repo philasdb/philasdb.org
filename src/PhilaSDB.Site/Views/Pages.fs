@@ -22,7 +22,8 @@ let private welcome =
 let private hero (assets: Fingerprints) =
     section (id = "hero") {
         div (style = "position: relative; width: 100%; height: auto; aspect-ratio: 16/9;") {
-            img (
+            responsive assets "cover_image" [ 480; 768; 925 ] "(max-width: 925px) 100vw, 925px"
+            <| img (
                 src = assets.Url "/images/cover_image.webp",
                 alt = "Philadelphia Seventh Day Baptist Church",
                 width = 925,
@@ -52,7 +53,8 @@ let private pastor (assets: Fingerprints) =
         div (class' = "pastor-info") {
             div (class' = "pastor-bio") {
                 blockquote () {
-                    img (
+                    responsive assets "pastor" [ 180; 270 ] "180px"
+                    <| img (
                         src = assets.Url "/images/pastor.webp",
                         alt = "Pastor",
                         width = 180,
@@ -253,14 +255,15 @@ let giving (assets: Fingerprints) =
                     div () { a(href = "https://cash.app/$philasdb", target = "_blank") { "$PhilaSDB" } }
 
                     a (href = "https://cash.app/$philasdb", target = "_blank") {
-                        img (
+                        responsive assets "cashapp" [ 256; 288 ] "256px"
+                        <| img (
                             id = "cashapp",
                             class' = "centered",
                             src = assets.Url "/images/cashapp.webp",
                             alt = "Cash App QR code",
                             width = 256,
                             height = 256,
-                            loading = "lazy",
+                            loading = "eager",
                             decoding = "async"
                         )
                     }
@@ -595,7 +598,8 @@ let concert2025Menu (assets: Fingerprints) =
                     p (class' = "cashapp-title") { "Pay with Cash App" }
 
                     div (class' = "cashapp-qr") {
-                        img (
+                        responsive assets "cashapp" [ 150; 288 ] "150px"
+                        <| img (
                             src = assets.Url "/images/cashapp.webp",
                             alt = "Cash App Payment",
                             width = 288,
