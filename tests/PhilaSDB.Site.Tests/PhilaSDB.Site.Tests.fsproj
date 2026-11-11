@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Paths.fs" />
+    <Compile Include="ScriptureTests.fs" />
+    <Compile Include="BulletinTests.fs" />
+    <Compile Include="SiteTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/PhilaSDB.Site/PhilaSDB.Site.fsproj" />
+  </ItemGroup>
+
+</Project>

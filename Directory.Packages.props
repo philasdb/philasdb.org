@@ -1,0 +1,19 @@
+<Project>
+  <!-- One version of each package for the whole repo (central package management) -->
+  <ItemGroup>
+    <!-- F# projects reference FSharp.Core implicitly; with central package management its version lives here -->
+    <PackageVersion Include="FSharp.Core" Version="11.0.101" />
+
+    <PackageVersion Include="Oxpecker.ViewEngine" Version="2.1.0" />
+
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="11.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="11.0.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.21.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.21.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.21.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.21.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.21.0" />
+
+    <PackageVersion Include="xunit.v3" Version="4.0.3" />
+  </ItemGroup>
+</Project>

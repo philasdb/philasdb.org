@@ -1,21 +1,16 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for more information:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-# https://containers.dev/guide/dependabot
-
 version: 2
 updates:
-  - package-ecosystem: "devcontainers"
+  # Directory.Packages.props (central package management) covers every project in the repo
+  - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: weekly
 
-  - package-ecosystem: "npm"
-    directory: "/src/philasdb.site"
+  - package-ecosystem: "docker"
+    directory: "/src/PhilaSDB.Site"
     schedule:
       interval: weekly
-    versioning-strategy: increase
 
   - package-ecosystem: "github-actions"
     directory: "/"

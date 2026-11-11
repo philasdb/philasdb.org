@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!-- Native AOT: `dotnet publish -r linux-x64` produces a self-contained native executable.
+         It also turns on the trim/AOT analyzers for every build, so new warnings show up early. -->
+    <PublishAot>true</PublishAot>
+    <!-- FSharp.Core reports assembly-level trim/AOT warnings for code the app doesn't reach (printf, quotations).
+         They stay warnings so the publish succeeds; CI fails on any other trim/AOT warning. -->
+    <!-- One small shared CPU on Fly: the workstation GC keeps the heap (and the bill) small -->
+    <ServerGarbageCollector>false</ServerGarbageCollector>
+    <!-- Static files are compressed per request by response compression; no .br/.gz copies in the image -->
+    <CompressionEnabled>false</CompressionEnabled>
+    <WarningsNotAsErrors>$(WarningsNotAsErrors);IL2104;IL3053</WarningsNotAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Bulletins.fs" />
+    <Compile Include="Hymnals.fs" />
+    <Compile Include="Assets.fs" />
+    <Compile Include="Views/Layout.fs" />
+    <Compile Include="Views/Pages.fs" />
+    <Compile Include="Views/BulletinViews.fs" />
+    <Compile Include="Site.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Content the pages are built from at startup: bulletins, hymnals and the KJV (shared at the repo root) -->
+    <None Include="content/**" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="../../data/eng-kjv.osis.xml" Link="data/eng-kjv.osis.xml" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../PhilaSDB.Scripture/PhilaSDB.Scripture.fsproj" />
+    <ProjectReference Include="../PhilaSDB.ServiceDefaults/PhilaSDB.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oxpecker.ViewEngine" />
+  </ItemGroup>
+
+</Project>

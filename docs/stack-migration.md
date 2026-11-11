@@ -1,6 +1,14 @@
 # Migrating philasdb.org from Astro/Node to F# on .NET (NativeAOT + Datastar)
 
-Status: **research / proposal**. No code has been changed yet.
+## Status
+
+- **Done (this branch):** the site is ported to F# on .NET 11 with Native AOT. Every page and bulletin renders as
+  it did in Astro (checked text-for-text and visually against the Astro build). Node, pnpm, Astro, Lit and
+  video.js are gone. The repo is laid out for a monorepo, with an Aspire `apphost.cs`, a Dockerfile and fly.toml,
+  and CI that deploys to GitHub Pages (static export) and to Fly once `FLY_API_TOKEN` is set.
+- **Not yet:** live status over SSE/Datastar and the livestream webhook (step 4), the server-side YouTube list
+  (step 1), and bulletin storage and admin (step 5). The livestream indicator and sermons page still work as before,
+  from the browser.
 
 ## Goals
 

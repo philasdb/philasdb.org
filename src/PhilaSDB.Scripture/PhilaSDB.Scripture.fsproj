@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- KJV text and scripture references. No web or database dependencies, so any app in the repo can use it -->
+  <PropertyGroup>
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Books.fs" />
+    <Compile Include="Bible.fs" />
+  </ItemGroup>
+
+</Project>

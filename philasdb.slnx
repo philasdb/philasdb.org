@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PhilaSDB.Scripture/PhilaSDB.Scripture.fsproj" />
+    <Project Path="src/PhilaSDB.ServiceDefaults/PhilaSDB.ServiceDefaults.csproj" />
+    <Project Path="src/PhilaSDB.Site/PhilaSDB.Site.fsproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PhilaSDB.Site.Tests/PhilaSDB.Site.Tests.fsproj" />
+  </Folder>
+</Solution>

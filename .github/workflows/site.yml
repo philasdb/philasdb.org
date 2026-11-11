@@ -1,0 +1,93 @@
+name: Site
+
+# test:   build and unit tests
+# image:  builds the Native AOT Docker image, fails on new trim/AOT warnings, and smoke-tests the container
+# pages:  on main, exports the site as static files and deploys them to GitHub Pages (philasdb.org's host
+#         until DNS points at Fly)
+# fly:    on main, deploys to Fly.io once the FLY_API_TOKEN secret exists
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+      - run: dotnet build
+      - run: dotnet test --no-build
+
+  image:
+    name: Docker image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Build
+        run: docker build --progress=plain -f src/PhilaSDB.Site/Dockerfile -t philasdb-site . 2>&1 | tee build.log
+
+      # Trim/AOT problems only show up in the native executable. FSharp.Core reports assembly-level warnings
+      # for code the app doesn't reach (printf, quotations: don't use them); anything else is new.
+      - name: Check for trim/AOT warnings
+        run: |
+          if grep -E 'warning IL[0-9]+' build.log | grep -v "Assembly 'FSharp.Core' produced"; then
+            echo "::error::New trim/AOT warnings (see above)"
+            exit 1
+          fi
+
+      - name: Smoke test
+        run: |
+          docker run -d --name site -p 8080:8080 philasdb-site
+          for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:8080/healthz && break; sleep 1; done
+          for path in / /about /giving /livestream /sermons /bulletin /bulletin/archive /sitemap-index.xml; do
+            curl -sf -o /dev/null "http://localhost:8080$path" || { echo "::error::$path failed"; docker logs site; exit 1; }
+          done
+          docker logs site
+
+  pages:
+    name: Deploy to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: [test, image]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+      - run: dotnet run --project src/PhilaSDB.Site -c Release -- export dist
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist/
+          retention-days: 1
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  fly:
+    name: Deploy to Fly.io
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: [test, image]
+    runs-on: ubuntu-latest
+    concurrency: fly-deploy
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+      - if: env.FLY_API_TOKEN == ''
+        run: echo "::notice::FLY_API_TOKEN isn't set, so the site wasn't deployed to Fly.io"
+      - if: env.FLY_API_TOKEN != ''
+        uses: superfly/flyctl-actions/setup-flyctl@master
+      - if: env.FLY_API_TOKEN != ''
+        run: flyctl deploy . --config src/PhilaSDB.Site/fly.toml --dockerfile src/PhilaSDB.Site/Dockerfile --remote-only

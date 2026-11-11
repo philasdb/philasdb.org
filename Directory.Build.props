@@ -1,0 +1,22 @@
+<Project>
+  <!-- Shared by every project in the repo (the site today; the bible and livestream apps once they move in) -->
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Matches the chiseled runtime images, which have no ICU -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- Known-vulnerable packages (NU1901-NU1904) still fail the build; NuGet merely being unreachable doesn't -->
+    <WarningsNotAsErrors>$(WarningsNotAsErrors);NU1900</WarningsNotAsErrors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <!-- F# projects: FSharp.Core comes from Directory.Packages.props like every other package, instead of the
+       SDK's implicit reference (which central package management would otherwise pin to an older version) -->
+  <PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.fsproj'">
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(MSBuildProjectExtension)' == '.fsproj'">
+    <PackageReference Include="FSharp.Core" />
+  </ItemGroup>
+</Project>
