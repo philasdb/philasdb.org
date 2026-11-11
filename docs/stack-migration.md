@@ -7,7 +7,8 @@ Status: **research / proposal**. No code has been changed yet.
 1. No Node.js, npm/pnpm, Vite or Astro anywhere in the build or runtime.
 2. The livestream indicator and the livestream page update over SSE (Datastar) with no client polling.
 3. The sermons video list is assembled on the server. No API key reaches the browser.
-4. Run on Fly.io next to `philasdb-bible` and `psdb-livestream`, for free or a dollar or two a month.
+4. Run on Fly.io next to `philasdb-bible` and `psdb-livestream`, keeping the whole org's bill under the $5 waiver.
+7. Publish bulletins without committing to git or redeploying, with an admin upload and later an editor.
 5. Stay as fast as the current GitHub Pages site.
 6. Keep the door open to one `philasdb` monorepo later.
 
@@ -70,8 +71,9 @@ The first visitor after an idle period pays the resume latency. Use `auto_stop_m
 
 - Fly's old free allowance (3 × shared-cpu-1x 256 MB) is **legacy, for grandfathered orgs only**. New usage is billed from the first second. If your org is grandfathered, the site machine fits in the allowance.
 - A shared-cpu-1x 256 MB machine running all month costs about **$1.94–$2.19**. Suspended, it's billed only for its rootfs and snapshot storage, which is cents. A church site that's idle most of the week should land **under $1/month**. NativeAOT keeps it comfortably within 256 MB, probably about 30–60 MB RSS.
-- I found nothing current confirming that Fly still waives invoices under $5. Don't count on it.
-- **Free fallback:** if you want $0 guaranteed, generate the static pages with the same F# views to GitHub Pages and put only the three dynamic endpoints on Fly (option B below).
+- **This org's invoices under $5 are still waived** (confirmed by the owner). The waiver applies to the **whole invoice**, so the real budget is: `philasdb-bible` + `psdb-livestream` + `philasdb-site` + volumes + IPs together < $5/month. That leaves plenty of room as long as each app suspends or stops when idle. The main thing to watch is `philasdb-bible`'s 1 GB/2 CPU machine: running nonstop it would use most of the $5 by itself.
+- A 1 GB volume for bulletins (see "Bulletins without a deploy") adds about $0.15/month.
+- **Free fallback:** if the waiver ever ends, generate the static pages with the same F# views to GitHub Pages and put only the dynamic endpoints on Fly (option B below).
 
 ## Architecture options
 
@@ -120,7 +122,7 @@ Dockerfile, fly.toml      Copied from bible / livestream
 **Key decisions**
 
 - **JSON** with `System.Text.Json` through a source-generated `JsonSerializerContext` (AOT-safe), or `JsonDocument` like the bible app. Bulletins are read once at startup.
-- **Bulletins** are still "commit a JSON file". CI builds and deploys the image in about 2–3 minutes, close to today's Pages build. If you'd like to publish without a deploy later, the JSON could be uploaded to a Fly volume or Tigris, but you don't need that now.
+- **Bulletins** move out of the image and into storage the server can write to, so publishing one doesn't need a commit or a deploy. See the next section.
 - **Images:** they're already sized and mostly webp, so serve them as static files with `<img width height loading="lazy">`. `MapStaticAssets` adds fingerprinting, immutable caching and build-time Brotli/gzip with no Node involved. Convert `CS26-Slide.jpg` (450 KB) to webp once by hand.
 - **Livestream page:** Datastar patches the offline overlay or the `<video>` element. The player is native `<video>` on Safari and iOS, with a vendored `hls.light.min.js` elsewhere. That drops video.js and its CSS.
 - **Sitemap** (`/sitemap.xml`) and canonical/OG tags are generated from the same route table.
@@ -129,18 +131,45 @@ Dockerfile, fly.toml      Copied from bible / livestream
 
 **Changes in `psdb-livestream`** (small): add a state-change callback in `Streams.fs` that POSTs to `SITE_WEBHOOK_URL` with `SITE_WEBHOOK_SECRET`, drop `/api/status` CORS once the site no longer calls it from browsers, and keep HLS CORS.
 
+## Bulletins without a deploy
+
+Today, publishing a bulletin means committing a JSON file and waiting for a site rebuild. With a server, bulletins can be content the app owns, not source code.
+
+### Storage: SQLite on a Fly volume (recommended)
+
+- One table: `bulletins (date TEXT PRIMARY KEY, json TEXT, updated_at, updated_by)`, plus a `bulletin_revisions` table that keeps every saved version, so a bad edit can be undone. This is the same pattern as `remote.db` in the bible app (`Microsoft.Data.Sqlite`, which is AOT-safe and already proven there).
+- **Seeding:** on first boot, if the table is empty, import the ~90 existing JSON files that ship in the image. After that the database is the source of truth.
+- **Rendering:** bulletins are still pre-rendered. A save validates the JSON, renders the HTML once, and replaces the cached page (and `/bulletin`, the archive and the sitemap if needed). Readers never wait on rendering. Optionally, an SSE patch can update a bulletin page that's open on someone's phone during the service.
+- **Backups:** Fly takes daily volume snapshots (kept 5 days by default, configurable). On top of that, add a `GET /admin/bulletins/export` (zip of JSON) and, optionally, a nightly job that commits changed bulletins back to this repo through the GitHub API. Then git stays a complete history and backup without being in the publishing path.
+- **Why not the alternatives:** Tigris/S3 object storage works but adds a client library and another account for ~100 KB of data. Making the admin editor commit to GitHub and redeploy keeps the 2–3 minute delay you're trying to remove.
+- **Caveat:** a volume ties the app to one machine in one region. That's already the plan, and the bible app runs the same way, with `suspend`.
+
+### Admin, in two phases
+
+1. **Upload (small, first):** `/admin` page with a file input and a date. You keep writing the same JSON you write today, then upload it instead of committing. The server parses it into the v2 types and checks it before saving: every scripture reference resolves in the KJV, every hymn number exists in `hymnals.json`, dates are valid. It shows a rendered **preview** and you click **Publish**. Mistakes get caught before anyone sees them, which the current build doesn't do (a bad reference renders as nothing).
+2. **Editor (later):** a Datastar form for the v2 structure: Sabbath School fields, a repeatable announcements list, and an ordered worship-service list (add, reorder, delete items). The preview updates live over SSE as you type, and scripture text and hymn titles fill in as references are entered. "Copy last week's bulletin" covers most weeks. This is the same server-rendered Datastar style as the bible app's remote controller, so it needs no JS framework.
+
+### Authentication
+
+Only one or two people will ever edit, so keep it small but real:
+
+- **Start:** a single admin password stored as a PBKDF2 hash in `fly secrets` (`Rfc2898DeriveBytes`, built into .NET). Sign-in sets an ASP.NET Core cookie (`HttpOnly`, `Secure`, `SameSite=Strict`), and the login endpoint is rate-limited with the built-in rate limiter. Cookie auth, data protection (keys kept on the volume) and antiforgery all work under NativeAOT.
+- **Upgrade:** passkeys (WebAuthn), so there's no password to leak, with one credential per editor. Or GitHub OAuth limited to an allowlist of usernames. Check either one for AOT/trim warnings before you adopt it.
+- All `/admin` and `/internal` routes stay off the sitemap and are marked `noindex`. Every save records who saved it (`updated_by`).
+
 ## Migration plan
 
 1. **Quick fix now, on the current site:** move the sermons fetch behind a tiny endpoint on the livestream app (or the new site app), then rotate and restrict the YouTube key. This doesn't depend on anything else.
 2. Scaffold `PhilaSDB.Site` from the bible app's csproj, Dockerfile and CI. Port the layout, header, footer and home/about/giving.
 3. Port the bulletins (types, v1→v2 migration, scripture, hymns). Add snapshot tests comparing rendered bulletin text with the current Astro output for every JSON file.
 4. Add the sermons page (server-side YouTube) and the live status SSE + webhook, then add the webhook to `psdb-livestream`.
-5. Deploy to `philasdb-site.fly.dev` and compare against the live site (Lighthouse, page weight, a test stream end to end).
-6. Switch DNS: point `philasdb.org` at Fly (`fly certs add philasdb.org`), remove `CNAME` and the Pages workflow.
-7. Later: merge `bible`, `livestream` and `philasdb.org` into one repo with a shared `Directory.Packages.props`, one `global.json` (all three are already on .NET 11) and one Aspire apphost running all three apps.
+5. Move bulletins to SQLite on a volume (seeded from the JSON files), then add `/admin` sign-in and validated upload with preview. The full editor comes after the cutover.
+6. Deploy to `philasdb-site.fly.dev` and compare against the live site (Lighthouse, page weight, a test stream end to end).
+7. Switch DNS: point `philasdb.org` at Fly (`fly certs add philasdb.org`), remove `CNAME` and the Pages workflow.
+8. Later: merge `bible`, `livestream` and `philasdb.org` into one repo with a shared `Directory.Packages.props`, one `global.json` (all three are already on .NET 11) and one Aspire apphost running all three apps.
 
 ## Open questions
 
-- Is the Fly org on a grandfathered plan with the free allowance? That decides whether option A is free or about $1/month.
+- Who besides you will publish bulletins? That decides whether a shared password is enough or per-person passkeys are worth doing first.
 - Is a ~300 ms resume for the first visitor after idle acceptable, or should the site stay running all the time (about $2/month) or sit behind Cloudflare?
 - Do the 2025 concert pages need to stay at their URLs, or can old events be archived?
