@@ -8,9 +8,9 @@ Status: **research / proposal**. No code has been changed yet.
 2. The livestream indicator and the livestream page update over SSE (Datastar) with no client polling.
 3. The sermons video list is assembled on the server. No API key reaches the browser.
 4. Run on Fly.io next to `philasdb-bible` and `psdb-livestream`, keeping the whole org's bill under the $5 waiver.
-7. Publish bulletins without committing to git or redeploying, with an admin upload and later an editor.
 5. Stay as fast as the current GitHub Pages site.
 6. Keep the door open to one `philasdb` monorepo later.
+7. Publish bulletins without committing to git or redeploying, with an admin upload and later an editor.
 
 ## What the site is today
 
