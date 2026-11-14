@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "date": "2026-11-14",
+  "sabbathSchool": {
+    "topic": "Samuel: God's Prophet and Judge",
+    "study": "1 Samuel 7:3-11,15-17",
+    "background": "1 Samuel 7:3-17",
+    "devotional": "1 Corinthians 15:50-58"
+  },
+  "announcements": [
+    {
+      "description": "Ordination Service",
+      "startDate": "2026-11-21",
+      "location": "Marlboro SDB Church\n607 Quinton-Marlboro Rd, Bridgeton, NJ 08302"
+    },
+    {
+      "description": "Annual Children's Banquet",
+      "startDate": "2026-12-19",
+      "time": "4pm-8pm",
+      "additionalInfo": "Tickets: 25$"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 29:11"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 373
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 29"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 501
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Isaiah 7:14"
+    },
+    {
+      "type": "song",
+      "label": "Special Music",
+      "song": 351
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "The Savior of the World (part 2)",
+        "speaker": "Pastor Kenroy Cruickshank"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 312
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
