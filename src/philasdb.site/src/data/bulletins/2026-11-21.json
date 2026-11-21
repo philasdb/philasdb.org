@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "date": "2026-11-14",
+  "sabbathSchool": {
+    "topic": "Samuel: God's Prophet and Judge",
+    "study": "1 Samuel 16:4-13",
+    "background": "1 Samuel 15:10-16:13",
+    "devotional": "Micah 6:1-8"
+  },
+  "announcements": [
+    {
+      "description": "Ordination Service",
+      "startDate": "2026-11-21",
+      "location": "Marlboro SDB Church\n607 Quinton-Marlboro Rd, Bridgeton, NJ 08302"
+    },
+    {
+      "description": "Annual Children's Banquet",
+      "startDate": "2026-12-19",
+      "time": "4pm-8pm",
+      "additionalInfo": "Tickets: 25$"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*",
+    "*We are looking for a pianist for our worship services and would help anyone interested in learning*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Luke 6:45"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 242
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Luke 6:35-45"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 378
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Ezekiel 36:22-35"
+    },
+    {
+      "type": "song",
+      "label": "Special Music",
+      "song": {
+        "title": "Gracefully Broken",
+        "artist": "Tasha Cobb"
+      }
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "Posture of the Heart",
+        "speaker": "Evangelist Precious Watt"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 376
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
