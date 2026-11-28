@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "date": "2026-11-28",
+  "sabbathSchool": {
+    "topic": "Samuel: God's Prophet and Judge",
+    "study": "2 Samuel 5:1-12",
+    "background": "2 Samuel 5:1-6:23;24:18-25:Joshua 15:63;Judges 1:21",
+    "devotional": "Hebrews 12:18-29"
+  },
+  "announcements": [
+    {
+      "description": "Annual Children's Banquet",
+      "startDate": "2026-12-19",
+      "time": "4pm-8pm",
+      "additionalInfo": "Tickets: 25$"
+    }
+  ],
+  "notes": [
+    "*Break after sabbath school is 10 minutes*",
+    "*We are having a special collection for Jamaican Hurricane Relief*",
+    "*If you are a guest, please sign the guest book in the front*",
+    "*Please note that you can view the praise and worship and the remaining services on our website at philasdb.org/livestream*",
+    "*We are looking for a pianist for our worship services and would help anyone interested in learning*"
+  ],
+  "worshipService": [
+    {
+      "type": "thoughtOfTheDay",
+      "reference": "Psalm 46:9-10"
+    },
+    {
+      "type": "song",
+      "label": "Opening Song",
+      "song": 366
+    },
+    {
+      "type": "text",
+      "label": "Welcome of New Visitors"
+    },
+    {
+      "type": "text",
+      "label": "Opening Prayer",
+      "content": "*Prayer Requests*",
+      "italic": true,
+      "small": true
+    },
+    {
+      "type": "scripture",
+      "label": "Responsive Reading",
+      "reference": "Psalm 46"
+    },
+    {
+      "type": "tithesAndOffering",
+      "song": 312
+    },
+    {
+      "type": "scripture",
+      "label": "Scripture Reading",
+      "reference": "Ezekiel 37:1-14"
+    },
+    {
+      "type": "song",
+      "label": "Special Music"
+    },
+    {
+      "type": "message",
+      "message": {
+        "title": "A Quiet Place",
+        "speaker": "Bro. McIndoe"
+      }
+    },
+    {
+      "type": "song",
+      "label": "Closing Song",
+      "song": 90
+    },
+    {
+      "type": "text",
+      "label": "Closing Prayer"
+    },
+    {
+      "type": "text",
+      "label": "Announcements"
+    },
+    {
+      "type": "text",
+      "label": "Benediction"
+    }
+  ]
+}
